@@ -1,0 +1,25 @@
+{
+  "projects": [
+    {
+      "id": 1,
+      "client": "Netflix",
+      "data": "2022",
+      "name": "The Puzzle Boxes Glass Onion",
+      "description": "Netflix&apos;s new film Glass Onion: A Knives Out Mystery is a whodunit that kicks off with an enigmatic puzzle box. Our challenge was on—to celebrate the film's release, we conceived and crafted 12 Puzzle Boxes, inspired by the one from the movie, in three different tiers. Ranging from large and complex to smaller self-assembly puzzles, the boxes were produced and shipped across the US and Europe to influencers, press, fans, and even film director Ryan Johnson. The intricate challenges were solved during livestreams by these real-life Benoit Blancs, watched by over 30 million people.",
+      "slug": "netflix-glass-onion",
+      "cover": "./cover.png",
+      "hover": "./hover.gif",
+      "video": "https://www.youtube.com/embed/5D0aRw2O_I8",
+      "media": [
+        "ff3ec285-40d5-4632-a237-8d0b19403367.jpg"
+      ],
+      "role": "Tech Lead, Firmware Developer",
+      "tags": [
+        "product",
+        "tag2",
+        "tag3"
+      ],
+      "featured": true
+    }
+  ]
+}
