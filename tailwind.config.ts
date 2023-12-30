@@ -12,7 +12,7 @@ const config: Config = {
     },
     extend: {
       borderRadius: {
-        medium: '2rem',
+        medium: '1.6rem',
         extra: '3rem',
       },
     },

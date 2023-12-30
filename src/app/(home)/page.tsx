@@ -1,4 +1,4 @@
-import { ProjectItem } from '@/components/project-item'
+import ProjectList from '@/components/project-list'
 import Image from 'next/image'
 
 // TODO:
@@ -9,6 +9,7 @@ import Image from 'next/image'
 // - revisar texto do header e no metatag
 // - trocar a imagem do header com link do S3
 // - separar projects em um componente separado
+// - 404 page
 
 export default async function Home() {
   // await new Promise((resolve) => setTimeout(resolve, 10000))
@@ -67,18 +68,7 @@ export default async function Home() {
         <h3 className="mx-6 flex flex-col text-5xl font-bold leading-tight md:mx-20 md:text-7xl md:leading-tight lg:mx-36 lg:text-[114px] lg:leading-tight">
           Featured work
         </h3>
-
-        <div className="grid grid-cols-1 gap-4 md:grid-cols-2 lg:grid-cols-3 lg:gap-6">
-          <ProjectItem />
-          <ProjectItem />
-          <ProjectItem />
-          <ProjectItem />
-          <ProjectItem />
-          <ProjectItem />
-          <ProjectItem />
-          <ProjectItem />
-          <ProjectItem />
-        </div>
+        <ProjectList />
       </div>
     </div>
   )

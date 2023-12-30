@@ -1,9 +1,17 @@
-'use-client'
+'use client'
 
+import { Project } from '@/data/types/project'
 import Image from 'next/image'
 import Link from 'next/link'
+import { useState } from 'react'
 
-export function ProjectItem() {
+interface ProjectItemProps {
+  data: Project
+}
+
+export function ProjectItem({ data }: ProjectItemProps) {
+  const [isHovered, setIsHovered] = useState(false)
+
   return (
     <div className="flex flex-col">
       <Link
@@ -12,23 +20,17 @@ export function ProjectItem() {
       >
         <Image
           className="transition-transform duration-500 group-hover:scale-105"
-          src="https://flowbite.s3.amazonaws.com/docs/gallery/masonry/image-1.jpg"
-          width={500}
-          height={500}
+          src={isHovered ? data.hover : data.cover}
+          onMouseEnter={() => setIsHovered(true)}
+          onMouseLeave={() => setIsHovered(false)}
+          width={828}
+          height={640}
           quality={100}
           alt=""
         />
-        {/* <Image
-                className="invisible group-hover:visible"
-                src="/thumb1.gif"
-                width={500}
-                height={500}
-                quality={100}
-                alt=""
-              /> */}
       </Link>
-      <p>Projeto tal</p>
-      <p>#webgl</p>
+      <p>{data.title}</p>
+      <p>{data.tags}</p>
     </div>
   )
 }
