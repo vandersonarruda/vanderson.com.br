@@ -7,6 +7,9 @@ const config: Config = {
     './src/app/**/*.{js,ts,jsx,tsx,mdx}',
   ],
   theme: {
+    fontFamily: {
+      sans: 'var(--font-inter)',
+    },
     extend: {
       borderRadius: {
         medium: '2rem',
