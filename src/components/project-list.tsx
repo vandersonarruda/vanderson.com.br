@@ -3,7 +3,12 @@ import { ProjectItem } from './project-item'
 import { Project } from '@/data/types/project'
 
 async function getFeaturedProjects(): Promise<Project[]> {
-  const response = await api('/projects')
+  const response = await api('/projects', {
+    cache: 'no-store',
+    // next: {
+    //   revalidate: 60 * 60, // 1 hour
+    // },
+  })
 
   const projects = await response.json()
 

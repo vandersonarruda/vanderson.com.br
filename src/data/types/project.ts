@@ -9,6 +9,5 @@ export interface Project {
   video: string
   images: string[]
   role: string
-  tags: string[]
   featured: boolean
 }

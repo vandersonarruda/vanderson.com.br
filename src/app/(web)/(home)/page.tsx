@@ -10,13 +10,16 @@ import Image from 'next/image'
 // - trocar a imagem do header com link do S3
 // - separar projects em um componente separado
 // - 404 page
+// - remover o no-store para o revalidate na página de projetos, pode subir o tempo
+// - implementar o skeleton nas imagens
+// - remover Promise da API do slug (project)
 
 export default async function Home() {
   // await new Promise((resolve) => setTimeout(resolve, 10000))
 
   return (
     <div>
-      <div className="lg:mt-22 mx-6 mt-16 md:mx-20 md:mt-24 lg:mx-36">
+      <div className="mx-6 mt-8 md:mx-20 md:mt-16 lg:mx-36 lg:mt-24">
         <h1 className="flex flex-col text-5xl font-bold leading-tight md:text-7xl md:leading-tight lg:text-8xl lg:leading-tight">
           <span>👋 Hey,</span>
           <span>I&apos;m Vanderson</span>
@@ -44,7 +47,7 @@ export default async function Home() {
       </div>
 
       {/* About Me */}
-      <div className="text-1xl mx-6 mt-16 flex flex-col gap-8 font-normal leading-relaxed md:mx-20 md:mt-24 md:text-2xl md:leading-relaxed lg:mx-36 lg:mt-28">
+      <div className="mx-6 mt-16 flex flex-col gap-8 text-lg font-normal leading-relaxed md:mx-20 md:mt-24 md:text-2xl md:leading-relaxed lg:mx-36 lg:mt-28">
         <p>
           Two decades of coding and still counting, I&apos;ve been programming
           and leading a skilled team of developers, electronic engineers,

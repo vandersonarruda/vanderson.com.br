@@ -12,7 +12,7 @@ export function ProjectItem({ data }: ProjectItemProps) {
   return (
     <div className="group flex flex-col">
       <Link
-        href="/"
+        href={`/project/${data.slug}`}
         className="border-portage-500/0 group-hover:border-portage-500 h-auto max-w-full overflow-hidden rounded-3xl border-8 border-solid transition-all duration-200 md:rounded-medium"
       >
         <Image
@@ -24,8 +24,7 @@ export function ProjectItem({ data }: ProjectItemProps) {
           alt=""
         />
       </Link>
-      <p>{data.title}</p>
-      <p>{data.tags}</p>
+      {/* <p>{data.title}</p> */}
     </div>
   )
 }
