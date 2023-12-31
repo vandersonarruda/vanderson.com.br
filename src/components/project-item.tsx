@@ -3,28 +3,23 @@
 import { Project } from '@/data/types/project'
 import Image from 'next/image'
 import Link from 'next/link'
-import { useState } from 'react'
 
 interface ProjectItemProps {
   data: Project
 }
 
 export function ProjectItem({ data }: ProjectItemProps) {
-  const [isHovered, setIsHovered] = useState(false)
-
   return (
-    <div className="flex flex-col">
+    <div className="group flex flex-col">
       <Link
         href="/"
-        className="group h-auto max-w-full overflow-hidden rounded-3xl md:rounded-medium"
+        className="border-portage-500/0 group-hover:border-portage-500 h-auto max-w-full overflow-hidden rounded-3xl border-8 border-solid transition-all duration-200 md:rounded-medium"
       >
         <Image
-          className="transition-transform duration-500 group-hover:scale-105"
-          src={isHovered ? data.hover : data.cover}
-          onMouseEnter={() => setIsHovered(true)}
-          onMouseLeave={() => setIsHovered(false)}
-          width={828}
-          height={640}
+          className="transition-transform duration-500 group-hover:scale-105 "
+          src={data.cover}
+          width={490}
+          height={275}
           quality={100}
           alt=""
         />

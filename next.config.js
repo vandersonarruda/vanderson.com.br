@@ -1,7 +1,7 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
   images: {
-    domains: ['flowbite.s3.amazonaws.com'],
+    domains: ['s3.us-east-2.amazonaws.com'],
   },
 }
 

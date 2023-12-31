@@ -6,9 +6,8 @@ export interface Project {
   client: string
   year: string
   cover: string
-  hover: string
   video: string
-  media: string[]
+  images: string[]
   role: string
   tags: string[]
   featured: boolean

@@ -29,15 +29,17 @@ export default async function Home() {
       </div>
 
       {/* Cover */}
-      <div className="mt-8 flex w-full flex-col items-center md:mt-12 lg:mt-24">
+      <div className="rounded-small mt-8 flex w-full flex-col items-center overflow-hidden md:mt-12 md:rounded-medium lg:mt-24 lg:rounded-extra">
         <Image
-          src={'/vanderson-cover.jpg'}
+          src={
+            'https://s3.us-east-2.amazonaws.com/vanderson.com.br/vanderson-cover.jpg'
+          }
           width={1520}
           height={816}
           alt="My picture on the head of Christ Redeemer"
           objectFit="cover"
           quality={100}
-          className="h-auto rounded-3xl align-middle md:rounded-3xl lg:rounded-extra"
+          className="h-auto align-middle"
         />
       </div>
 
