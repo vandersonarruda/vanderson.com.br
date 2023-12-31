@@ -1,3 +1,4 @@
+import VideoPlayer from '@/components/videoplayer'
 import { api } from '@/data/api'
 import { Project } from '@/data/types/project'
 
@@ -25,8 +26,9 @@ export default async function ProjectPage({ params }: ProjectProps) {
 
   return (
     <div>
-      <div className="md:rounded-small overflow-hidden rounded-xl">video</div>
       <div className="mx-6 md:mx-20 lg:mx-36">
+        <VideoPlayer src={project.video} />
+
         <h1 className="mt-4 flex flex-col text-lg font-extrabold leading-normal md:text-3xl md:leading-normal">
           {project.title}
         </h1>
