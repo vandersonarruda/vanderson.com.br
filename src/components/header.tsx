@@ -1,4 +1,5 @@
 import Link from 'next/link'
+import { Send } from 'lucide-react'
 
 export function Header() {
   return (
@@ -7,8 +8,13 @@ export function Header() {
         {/* <Link href="/">Vanderson Arruda</Link> */}
       </div>
       <div>
-        {/* <p className="px-4 py-2 text-base md:text-lg lg:text-lg">LinkedIn</p> */}
-        <p className="px-4 text-base md:text-lg lg:text-lg">Get in touch</p>
+        <Link href="/">Get in Touch</Link>
+        {/* <button
+          type="button"
+          className="mt-2 flex h-12 items-center justify-center gap-2 rounded-full bg-white px-6 font-semibold text-zinc-950"
+        >
+          Get in touch <Send size={20} className="text-zinc-950" />
+        </button> */}
       </div>
     </header>
   )

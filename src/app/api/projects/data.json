@@ -4,7 +4,7 @@
       "id": "id_1",
       "title": "The Puzzle Boxes Glass Onion",
       "slug": "netflix-glass-onion",
-      "description": "Netflix&apos;s new film Glass Onion: A Knives Out Mystery is a whodunit that kicks off with an enigmatic puzzle box. Our challenge was on—to celebrate the film's release, we conceived and crafted 12 Puzzle Boxes, inspired by the one from the movie, in three different tiers. Ranging from large and complex to smaller self-assembly puzzles, the boxes were produced and shipped across the US and Europe to influencers, press, fans, and even film director Ryan Johnson. The intricate challenges were solved during livestreams by these real-life Benoit Blancs, watched by over 30 million people.",
+      "description": "Glass Onion: A Knives Out Mystery project for Netflix, I served as the Tech Lead and Firmware Developer, focusing on the technical challenge of conceptualizing and developing 12 Puzzle Boxes. These puzzles, inspired by the movie, were crafted in three different complexities and distributed across the US and Europe to influencers, press, fans, and even the film's director, Ryan Johnson. My key contribution was in the robust and reliable firmware development for the puzzles, ensuring an interactive and engaging experience. Additionally, I played a pivotal role in the technical leadership of the project, overseeing production and logistics. The puzzles were solved in livestreams, attracting an audience of over 30 million viewers, where my work was essential for the success of this immersive marketing initiative.",
       "client": "Netflix",
       "year": "2022",
       "cover": "https://s3.us-east-2.amazonaws.com/vanderson.com.br/projects/netflix-glass-onion/cover.png",
@@ -16,11 +16,6 @@
         "https://s3.us-east-2.amazonaws.com/vanderson.com.br/projects/netflix-glass-onion/cd9ba505-9ca6-450a-bf2b-e99d2bba3d7e.gif"
       ],
       "role": "Tech Lead, Firmware Developer",
-      "tags": [
-        "product",
-        "movie",
-        "tag3"
-      ],
       "featured": true
     }
   ]
