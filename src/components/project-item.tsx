@@ -13,7 +13,7 @@ export function ProjectItem({ data }: ProjectItemProps) {
     <div className="group flex flex-col">
       <Link
         href={`/project/${data.slug}`}
-        className="h-auto max-w-full overflow-hidden rounded-3xl border-8 border-solid border-portage-500/0 transition-all duration-200 group-hover:border-portage-500 md:rounded-medium"
+        className="h-auto max-w-full overflow-hidden rounded-2xl border-4 border-solid border-indigo-500/0 transition-all duration-200 group-hover:border-indigo-500 md:rounded-3xl"
       >
         <Image
           className="transition-transform duration-500 group-hover:scale-105 "

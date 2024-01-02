@@ -32,7 +32,7 @@ export default async function Home() {
       </div>
 
       {/* Cover */}
-      <div className="rounded-small mt-8 flex w-full flex-col items-center overflow-hidden md:mt-12 md:rounded-medium lg:mt-24 lg:rounded-extra">
+      <div className="mt-8 flex w-full flex-col items-center overflow-hidden rounded-small md:mt-12 md:rounded-medium lg:mt-24 lg:rounded-extra">
         <Image
           src={
             'https://s3.us-east-2.amazonaws.com/vanderson.com.br/vanderson-cover.jpg'
