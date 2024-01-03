@@ -1,4 +1,6 @@
 import ProjectList from '@/components/project-list'
+import { SimpleButton } from '@/components/simple-button'
+import { env } from '@/env'
 import Image from 'next/image'
 
 // TODO:
@@ -19,24 +21,22 @@ export default async function Home() {
 
   return (
     <div>
-      <div className="mx-6 mt-8 md:mx-20 md:mt-16 lg:mx-36 lg:mt-24">
-        <h1 className="flex flex-col text-5xl font-bold leading-tight md:text-7xl md:leading-tight lg:text-8xl lg:leading-tight">
-          <span>👋 Hey,</span>
-          <span>I&apos;m Vanderson</span>
+      <div className="mx-8 mt-8 md:mx-20 md:mt-16 lg:mx-36 lg:mt-24">
+        <h1 className="flex flex-col text-4xl font-bold leading-tight md:text-7xl md:leading-tight lg:text-8xl lg:leading-tight">
+          <p>👋 Hey,</p>
+          <p>I&apos;m Vanderson</p>
         </h1>
 
-        <h2 className="mt-4 w-[330px] text-2xl font-medium leading-normal md:w-[600px] md:text-3xl md:leading-normal lg:mt-8 lg:w-[860px] lg:text-5xl lg:leading-normal">
+        <h2 className="mt-4 w-full text-xl font-medium leading-normal md:w-[600px] md:text-4xl md:leading-normal lg:mt-8 lg:w-[860px] lg:text-5xl lg:leading-normal">
           — a software engineer skilled on Web, IoT, Mobile & AI — working
           remotely from São Paulo, Brazil.
         </h2>
       </div>
 
       {/* Cover */}
-      <div className="mt-8 flex w-full flex-col items-center overflow-hidden rounded-small md:mt-12 md:rounded-medium lg:mt-24 lg:rounded-extra">
+      <div className="mt-8 flex w-full flex-col items-center overflow-hidden rounded-small md:mt-16 md:rounded-medium lg:mt-24 lg:rounded-extra">
         <Image
-          src={
-            'https://s3.us-east-2.amazonaws.com/vanderson.com.br/vanderson-cover.jpg'
-          }
+          src={env.NEXT_PUBLIC_S3_BASE_URL + '/vanderson-cover.jpg'}
           width={1520}
           height={816}
           alt="My picture on the head of Christ Redeemer"
@@ -47,7 +47,7 @@ export default async function Home() {
       </div>
 
       {/* About Me */}
-      <div className="mx-6 mt-16 flex flex-col gap-8 text-lg font-normal leading-relaxed md:mx-20 md:mt-24 md:text-2xl md:leading-relaxed lg:mx-36 lg:mt-28">
+      <div className="mx-8 mt-8 flex flex-col gap-8 text-base font-normal leading-relaxed md:mx-20 md:mt-16 md:text-xl md:leading-relaxed lg:mx-36 lg:mt-24 lg:text-2xl lg:leading-relaxed">
         <p>
           Two decades of coding and still counting, I&apos;ve been programming
           and leading a skilled team of developers, electronic engineers,
@@ -64,16 +64,23 @@ export default async function Home() {
           and cutting-edge. 🌱
         </p>
 
-        <p>LinkedIn</p>
+        <SimpleButton
+          title="LinkedIn"
+          link="https://www.linkedin.com/in/vandersonarruda/"
+          iconName="Linkedin"
+        />
       </div>
 
       {/* Featured work */}
-
-      <div className="mt-16 flex flex-col gap-8 md:mt-24  lg:mt-28">
-        <h3 className="mx-6 flex flex-col text-5xl font-bold leading-tight md:mx-20 md:text-7xl md:leading-tight lg:mx-36 lg:text-[114px] lg:leading-tight">
-          Featured work
-        </h3>
-        <ProjectList />
+      <div className="mt-16 flex flex-col gap-4 md:mt-20 md:gap-8 lg:mt-28">
+        <div className="mx-8 md:mx-20 lg:mx-36">
+          <h3 className="flex flex-col text-4xl font-bold leading-tight md:text-7xl md:leading-tight lg:text-8xl lg:leading-tight">
+            Featured work
+          </h3>
+        </div>
+        <div className="">
+          <ProjectList />
+        </div>
       </div>
     </div>
   )

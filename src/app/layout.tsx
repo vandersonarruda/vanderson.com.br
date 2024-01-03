@@ -9,8 +9,8 @@ const inter = Inter({
 
 export const metadata: Metadata = {
   title: {
-    template: '%s | Vanderson Arruda',
-    default: 'Vanderson Arruda | Software Engineer',
+    template: '%s | Vanderson Arruda — Software Engineer',
+    default: 'Vanderson Arruda — Software Engineer',
   },
   description:
     'A software engineer focus on Web, IoT & Generative AI, working remotely from São Paulo, Brazil. With over 20 years of coding experience, developing innovative projects for Netflix, Google, and Microsoft. Portfolio includes unique gadgets, web apps, and immersive tech experiences',
