@@ -4,19 +4,36 @@
       "id": "id_1",
       "title": "The Puzzle Boxes Glass Onion",
       "slug": "netflix-glass-onion",
-      "description": "Glass Onion: A Knives Out Mystery project for Netflix, I served as the Tech Lead and Firmware Developer, focusing on the technical challenge of conceptualizing and developing 12 Puzzle Boxes. These puzzles, inspired by the movie, were crafted in three different complexities and distributed across the US and Europe to influencers, press, fans, and even the film's director, Ryan Johnson. My key contribution was in the robust and reliable firmware development for the puzzles, ensuring an interactive and engaging experience. Additionally, I played a pivotal role in the technical leadership of the project, overseeing production and logistics. The puzzles were solved in livestreams, attracting an audience of over 30 million viewers, where my work was essential for the success of this immersive marketing initiative.",
+      "description": "For Netflix's release of 'Glass Onion: A Knives Out Mystery', we created 12 Puzzle Boxes inspired by the film. These varied in complexity and were sent to influencers, press, fans, and the director across the US and Europe. The live-streamed puzzle-solving sessions attracted over 30 million viewers, adding an interactive element to the film's launch.",
       "client": "Netflix",
       "year": "2022",
-      "cover": "https://s3.us-east-2.amazonaws.com/vanderson.com.br/projects/netflix-glass-onion/cover.png",
-      "video": "https://vimeo.com/898227105/91d6516d00?share=copy",
+      "cover": "/netflix-glass-onion/cover.png",
+      "video": "https://youtu.be/5D0aRw2O_I8",
       "images": [
-        "https://s3.us-east-2.amazonaws.com/vanderson.com.br/projects/netflix-glass-onion/35c3ef42-f1ac-4fb3-bb51-599d705485ca.jpg",
-        "https://s3.us-east-2.amazonaws.com/vanderson.com.br/projects/netflix-glass-onion/335ba1bc-ec49-4efd-ad10-81c2e3d67b96.jpg",
-        "https://s3.us-east-2.amazonaws.com/vanderson.com.br/projects/netflix-glass-onion/4436f192-bb09-454e-838d-5c940c0adce3.jpg",
-        "https://s3.us-east-2.amazonaws.com/vanderson.com.br/projects/netflix-glass-onion/cd9ba505-9ca6-450a-bf2b-e99d2bba3d7e.gif"
+        "/netflix-glass-onion/35c3ef42-f1ac-4fb3-bb51-599d705485ca.jpg",
+        "/netflix-glass-onion/335ba1bc-ec49-4efd-ad10-81c2e3d67b96.jpg",
+        "/netflix-glass-onion/4436f192-bb09-454e-838d-5c940c0adce3.jpg",
+        "/netflix-glass-onion/cd9ba505-9ca6-450a-bf2b-e99d2bba3d7e.gif"
       ],
-      "role": "Tech Lead, Firmware Developer",
+      "role": "Alongside leading the team, I developed firmware code and implemented mobile integration for remote control of the puzzle boxes.",
+      "featured": true
+    },
+    {
+      "id": "id_2",
+      "title": "xxxxxxx",
+      "slug": "xxxxxxx",
+      "description": "xxxxxxx",
+      "client": "xxxxxxx",
+      "year": "202",
+      "cover": "xxxxxxx/cover.png",
+      "video": "",
+      "images": [
+        "xxxxxxx",
+        "xxxxxxx"
+      ],
+      "role": "xxxxxxx",
       "featured": true
     }
+    
   ]
 }
