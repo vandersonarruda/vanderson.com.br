@@ -19,7 +19,7 @@ export default async function ProjectList() {
   const projects = await getFeaturedProjects()
 
   return (
-    <div className="grid grid-cols-1 gap-5 md:grid-cols-2 md:gap-6 lg:grid-cols-3">
+    <div className="grid grid-cols-1 gap-5 md:grid-cols-2 md:gap-4 lg:grid-cols-3">
       {projects.map((project) => (
         <ProjectItem key={project.id} data={project} />
       ))}

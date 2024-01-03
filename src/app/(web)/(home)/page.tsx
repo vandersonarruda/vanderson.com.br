@@ -1,7 +1,9 @@
+import { HomeCover } from '@/components/home-cover'
 import ProjectList from '@/components/project-list'
 import { SimpleButton } from '@/components/simple-button'
 import { env } from '@/env'
 import Image from 'next/image'
+import Link from 'next/link'
 
 // TODO:
 // - remover Promise
@@ -27,24 +29,14 @@ export default async function Home() {
           <p>I&apos;m Vanderson</p>
         </h1>
 
-        <h2 className="mt-4 w-full text-xl font-medium leading-normal md:w-[600px] md:text-4xl md:leading-normal lg:mt-8 lg:w-[860px] lg:text-5xl lg:leading-normal">
-          — a software engineer skilled on Web, IoT, Mobile & AI — working
+        <h2 className="mt-4 w-full text-xl font-semibold leading-normal md:w-[600px] md:text-4xl md:leading-normal lg:mt-8 lg:w-[860px] lg:text-5xl lg:leading-normal">
+          — a software engineer skilled on web, IoT, mobile & AI — working
           remotely from São Paulo, Brazil.
         </h2>
       </div>
 
       {/* Cover */}
-      <div className="mt-8 flex w-full flex-col items-center overflow-hidden rounded-small md:mt-16 md:rounded-medium lg:mt-24 lg:rounded-extra">
-        <Image
-          src={env.NEXT_PUBLIC_S3_BASE_URL + '/vanderson-cover.jpg'}
-          width={1520}
-          height={816}
-          alt="My picture on the head of Christ Redeemer"
-          objectFit="cover"
-          quality={100}
-          className="h-auto align-middle"
-        />
-      </div>
+      <HomeCover />
 
       {/* About Me */}
       <div className="mx-8 mt-8 flex flex-col gap-8 text-base font-normal leading-relaxed md:mx-20 md:mt-16 md:text-xl md:leading-relaxed lg:mx-36 lg:mt-24 lg:text-2xl lg:leading-relaxed">
@@ -67,7 +59,7 @@ export default async function Home() {
         <SimpleButton
           title="LinkedIn"
           link="https://www.linkedin.com/in/vandersonarruda/"
-          iconName="Linkedin"
+          iconName="ExternalLink"
         />
       </div>
 
@@ -78,9 +70,7 @@ export default async function Home() {
             Featured work
           </h3>
         </div>
-        <div className="">
-          <ProjectList />
-        </div>
+        <ProjectList />
       </div>
     </div>
   )
