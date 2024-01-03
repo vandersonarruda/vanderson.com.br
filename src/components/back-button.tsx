@@ -12,14 +12,16 @@ export function BackButton() {
   }
 
   return (
-    <div className="">
+    <div>
       {pathname !== '/' ? (
         <button
           onClick={handleClick}
-          className="flex w-fit items-center justify-center gap-2 rounded-full px-4 py-2 text-xl font-semibold text-white transition-colors duration-200 hover:text-violet-500 md:text-xl"
+          className="group flex w-fit items-center justify-center gap-2 rounded-lg px-4 py-2 text-xl font-semibold text-white md:text-xl"
         >
-          <MoveLeft />
-          Back
+          <MoveLeft className="transition-all duration-100 ease-in group-hover:-ml-3 group-hover:text-violet-400" />
+          <p className="transition-all duration-100 ease-in group-hover:ml-3 group-hover:text-violet-400">
+            Back
+          </p>
         </button>
       ) : null}
     </div>

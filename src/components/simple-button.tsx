@@ -35,7 +35,7 @@ export function SimpleButton({
   return (
     <button
       onClick={handleClick}
-      className="flex w-fit items-center justify-center gap-2 rounded-full bg-white px-4 py-2 text-sm font-semibold text-zinc-950 transition-colors duration-200 hover:bg-blue-500 hover:text-white md:text-base"
+      className="flex w-fit items-center justify-center gap-2 rounded-lg bg-zinc-900 px-4 py-2 text-sm font-semibold text-violet-400 transition-colors duration-200 hover:bg-violet-800 hover:text-violet-200 md:text-base"
     >
       {IconComponent && <IconComponent size={size || 16} />}
       {title}
