@@ -7,7 +7,7 @@ export function Skeleton({ className, ...props }: ComponentProps<'div'>) {
   return (
     <div
       // className={twMerge('animate-pulse rounded-xl bg-zinc-50/10', className)}
-      className={twMerge('overflow-hidden rounded-xl bg-zinc-50/10', className)}
+      className={twMerge('overflow-hidden rounded-xl', className)}
       {...props}
     >
       <Image
@@ -15,7 +15,7 @@ export function Skeleton({ className, ...props }: ComponentProps<'div'>) {
         alt=""
         width={10}
         height={10}
-        className="h-full w-full"
+        className="h-full w-full object-cover"
       />
     </div>
   )
