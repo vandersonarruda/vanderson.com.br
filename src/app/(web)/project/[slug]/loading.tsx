@@ -5,7 +5,7 @@ export default function ProjectLoading() {
     <>
       <div className="mx-8 md:mx-20 lg:mx-36">
         <h2 className="text-xl font-normal leading-normal md:text-2xl md:leading-normal lg:text-3xl lg:leading-tight">
-          <Skeleton className="h-8 w-52" />
+          <Skeleton className="h-10 w-52" />
         </h2>
 
         <h1 className="text-2xl font-extrabold leading-tight md:text-4xl md:leading-tight lg:text-5xl lg:leading-tight">

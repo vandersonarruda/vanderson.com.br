@@ -6,7 +6,7 @@ export async function GET(
   { params }: { params: { slug: string } },
 ) {
   // TODO: Remover essa linha da promise
-  // await new Promise((resolve) => setTimeout(resolve, 1000))
+  await new Promise((resolve) => setTimeout(resolve, 2000))
 
   const slug = z.string().parse(params.slug)
 
