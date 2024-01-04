@@ -1,7 +1,8 @@
-import { ProjectImage } from '@/components/project-image'
 import VideoPlayer from '@/components/videoplayer'
 import { api } from '@/data/api'
 import { Project } from '@/data/types/project'
+import { toBase64, shimmer } from '@/utils/placeholder-shimmer'
+import Image from 'next/image'
 
 interface ProjectProps {
   params: {
@@ -56,7 +57,21 @@ export default async function ProjectPage({ params }: ProjectProps) {
 
           {project.images.map((image) => {
             return (
-              <ProjectImage key={image} image={image} slug={project.slug} />
+              <Image
+                key={image}
+                src={`${process.env.NEXT_PUBLIC_S3_BASE_URL}/projects/${project.slug}/${image}`}
+                alt={`Pictures about the project`}
+                width={800}
+                height={600}
+                quality={75}
+                style={{
+                  objectFit: 'cover',
+                }}
+                placeholder={`data:image/svg+xml;base64,${toBase64(
+                  shimmer(700, 475),
+                )}`}
+                className="h-auto max-h-[800px] w-full items-center rounded-xl object-cover"
+              />
             )
           })}
         </div>

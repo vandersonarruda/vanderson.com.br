@@ -20,7 +20,7 @@ export default function VideoPlayer({ src }: VideoPlayerProps) {
   if (!src) return null
 
   return (
-    <div className="aspect-video overflow-hidden rounded-xl bg-zinc-50/10">
+    <div className="aspect-video overflow-hidden rounded-xl">
       <ReactPlayer
         width="100%"
         height="100%"

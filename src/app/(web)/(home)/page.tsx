@@ -1,7 +1,6 @@
-import { HomeCover } from '@/components/home-cover'
 import ProjectList from '@/components/project-list'
 import { SimpleButton } from '@/components/simple-button'
-import { env } from '@/env'
+import { shimmer, toBase64 } from '@/utils/placeholder-shimmer'
 import Image from 'next/image'
 import Link from 'next/link'
 
@@ -36,7 +35,26 @@ export default async function Home() {
       </div>
 
       {/* Cover */}
-      <HomeCover />
+      <Link
+        href="/project/pirelli-christs-view"
+        className="mt-8 flex w-full flex-col items-center overflow-hidden rounded-small md:mt-16 md:rounded-medium lg:mt-24 lg:rounded-extra"
+      >
+        <Image
+          src={`${process.env.NEXT_PUBLIC_S3_BASE_URL}/vanderson-cover.jpg`}
+          width={1475}
+          height={680}
+          quality={100}
+          sizes="100vw"
+          style={{
+            objectFit: 'cover',
+          }}
+          placeholder={`data:image/svg+xml;base64,${toBase64(
+            shimmer(700, 475),
+          )}`}
+          alt="My picture on the head of Christ Redeemer"
+          className="h-auto w-full object-cover align-middle"
+        />
+      </Link>
 
       {/* About Me */}
       <div className="mx-8 mt-8 flex flex-col gap-8 text-base font-normal leading-relaxed md:mx-20 md:mt-16 md:text-xl md:leading-relaxed lg:mx-36 lg:mt-24 lg:text-2xl lg:leading-relaxed">
