@@ -1,5 +1,5 @@
 import ProjectList from '@/components/project-list'
-import { SimpleButton } from '@/components/simple-button'
+import { Button } from '@/components/button'
 import { shimmer, toBase64 } from '@/utils/placeholder-shimmer'
 import Image from 'next/image'
 import Link from 'next/link'
@@ -23,12 +23,12 @@ export default async function Home() {
   return (
     <div>
       <div className="mx-8 mt-8 md:mx-20 md:mt-16 lg:mx-36 lg:mt-24">
-        <h1 className="flex flex-col text-4xl font-bold leading-tight md:text-7xl md:leading-tight lg:text-8xl lg:leading-tight">
+        <h1 className="flex flex-col text-4xl font-extrabold leading-tight md:text-7xl md:leading-tight lg:text-8xl lg:leading-tight">
           <p>👋 Hey,</p>
           <p>I&apos;m Vanderson</p>
         </h1>
 
-        <h2 className="mt-4 w-full text-xl font-semibold leading-normal md:w-[600px] md:text-4xl md:leading-normal lg:mt-8 lg:w-[860px] lg:text-5xl lg:leading-normal">
+        <h2 className="mt-4 w-full text-xl font-bold leading-normal md:w-[600px] md:text-4xl md:leading-normal lg:mt-8 lg:w-[860px] lg:text-5xl lg:leading-normal">
           — a software engineer skilled on web, IoT, mobile & AI — working
           remotely from São Paulo, Brazil.
         </h2>
@@ -74,7 +74,7 @@ export default async function Home() {
           and cutting-edge. 🌱
         </p>
 
-        <SimpleButton
+        <Button
           title="LinkedIn"
           link="https://www.linkedin.com/in/vandersonarruda/"
           iconName="ExternalLink"
@@ -89,6 +89,18 @@ export default async function Home() {
           </h3>
         </div>
         <ProjectList />
+      </div>
+
+      {/* Featured work */}
+      <div className="w-full bg-zinc-50">
+        <div className="mt-16 flex flex-col gap-4 md:mt-20 md:gap-8 lg:mt-28">
+          <div className="mx-8 md:mx-20 lg:mx-36">
+            <h3 className="flex flex-col text-4xl font-bold leading-tight md:text-7xl md:leading-tight lg:text-8xl lg:leading-tight">
+              Tech skills
+            </h3>
+          </div>
+          asdasdasd
+        </div>
       </div>
     </div>
   )
