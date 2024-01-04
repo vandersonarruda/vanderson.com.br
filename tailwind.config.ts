@@ -16,6 +16,9 @@ const config: Config = {
         medium: '2.4rem',
         extra: '3.2rem',
       },
+      maxWidth: {
+        limit: '1600px',
+      },
     },
   },
   plugins: [],
