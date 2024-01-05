@@ -1,4 +1,4 @@
-import data from '../data.json'
+import data from '../../data.json'
 
 export async function GET() {
   const featuredProjects = data.projects.filter((project) => project.featured)

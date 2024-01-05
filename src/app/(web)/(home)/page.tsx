@@ -1,8 +1,11 @@
-import ProjectList from '@/components/project-list'
-import { Button } from '@/components/button'
-import { shimmer, toBase64 } from '@/utils/placeholder-shimmer'
 import Image from 'next/image'
 import Link from 'next/link'
+import { Suspense } from 'react'
+import { Button } from '@/components/button'
+import { LoadingIcon } from '@/components/loading'
+import ProjectList from '@/components/project-list'
+import StackList from '@/components/stack-list'
+import { shimmer, toBase64 } from '@/utils/placeholder-shimmer'
 
 // TODO:
 // - remover Promise
@@ -16,20 +19,21 @@ import Link from 'next/link'
 // - remover o no-store para o revalidate na página de projetos, pode subir o tempo
 // - implementar o skeleton nas imagens
 // - remover Promise da API do slug (project)
+// - icon e link no mouse
 
 export default async function Home() {
   // await new Promise((resolve) => setTimeout(resolve, 10000))
 
   return (
     <div>
-      <section className="max-w-limit mx-auto px-4 md:px-8 lg:px-16">
+      <section className="mx-auto max-w-limit px-4 md:px-8 lg:px-16">
         <div className="mx-8 md:mx-20 lg:mx-36">
-          <h1 className="flex flex-col text-4xl font-extrabold leading-tight md:text-7xl md:leading-tight lg:text-8xl lg:leading-tight">
+          <h1 className="flex flex-col text-4xl font-bold leading-tight md:text-7xl md:leading-tight lg:text-8xl lg:leading-tight">
             <p>👋 Hey,</p>
             <p>I&apos;m Vanderson</p>
           </h1>
 
-          <h2 className="mt-4 w-full text-xl font-bold leading-normal md:w-[600px] md:text-4xl md:leading-normal lg:mt-8 lg:w-[860px] lg:text-5xl lg:leading-normal">
+          <h2 className="mt-4 w-full text-xl font-semibold leading-normal md:w-[600px] md:text-4xl md:leading-normal lg:mt-8 lg:w-[860px] lg:text-5xl lg:leading-normal">
             — a software engineer skilled on web, IoT, mobile & AI — working
             remotely from São Paulo, Brazil.
           </h2>
@@ -59,7 +63,7 @@ export default async function Home() {
       </section>
 
       {/* About Me */}
-      <section className="max-w-limit mx-auto px-4 py-8 md:px-16 md:py-16 lg:px-16 lg:py-20">
+      <section className="mx-auto max-w-limit px-4 py-8 md:px-16 md:py-16 lg:px-16 lg:py-20">
         <div className="mx-8 flex flex-col gap-8 text-base font-normal leading-relaxed md:mx-20 md:text-xl md:leading-relaxed lg:mx-36 lg:text-2xl lg:leading-relaxed">
           <p>
             Two decades of coding and still counting, I&apos;ve been programming
@@ -87,27 +91,25 @@ export default async function Home() {
       </section>
 
       {/* Featured work */}
-      <div className="w-full bg-zinc-950 py-8 md:py-16 lg:py-24">
-        <section className="max-w-limit mx-auto flex flex-col gap-6 px-4 pb-3 md:gap-10 md:px-8 lg:gap-12 lg:px-16">
-          <h3 className="mx-8 flex flex-col text-4xl font-extrabold leading-tight text-white md:mx-20 md:text-7xl md:leading-tight lg:mx-36 lg:text-8xl lg:leading-tight">
+      <div className="w-full bg-zinc-950 py-8 md:py-16 lg:py-20">
+        <section className="mx-auto flex max-w-limit flex-col gap-8 px-4 pb-3 md:gap-12 md:px-8 lg:gap-16 lg:px-16">
+          <h1 className="mx-8 flex flex-col text-4xl font-bold leading-tight text-white md:mx-20 md:text-7xl md:leading-tight lg:mx-36 lg:text-8xl lg:leading-tight">
             Featured work
-          </h3>
-
-          <ProjectList />
+          </h1>
+          <Suspense fallback={<LoadingIcon isDark={true} />}>
+            <ProjectList />
+          </Suspense>
         </section>
       </div>
 
-      {/* Featured work */}
-      <section className="max-w-limit mx-auto flex flex-col gap-6 px-4 py-8 md:gap-10 md:px-16 md:py-16 lg:gap-12 lg:px-16 lg:py-20">
-        <h3 className="text-zin950 mx-8 flex flex-col text-4xl font-extrabold leading-tight md:mx-20 md:text-7xl md:leading-tight lg:mx-36 lg:text-8xl lg:leading-tight">
-          Tech skills
-        </h3>
-
-        <p>FronteEnd</p>
-        <p>FronteEnd</p>
-        <p>FronteEnd</p>
-        <p>FronteEnd</p>
-        <p>FronteEnd</p>
+      {/* Tech stack */}
+      <section className="mx-auto max-w-limit px-4 py-8 md:px-8 md:py-16 lg:px-16 lg:py-20">
+        <div className="mx-8 flex flex-col gap-8 md:mx-20 md:gap-10 lg:mx-36 lg:gap-12">
+          <h1 className="flex flex-col text-4xl font-bold leading-tight text-zinc-950 md:text-7xl md:leading-tight lg:text-8xl lg:leading-tight">
+            Tech stack
+          </h1>
+          <StackList />
+        </div>
       </section>
     </div>
   )

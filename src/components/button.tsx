@@ -30,24 +30,23 @@ export function Button({ title, link, iconName, size }: ButtonProps) {
   return (
     <button
       onClick={handleClick}
-      className="group relative w-fit overflow-hidden rounded-full bg-zinc-950/5 px-4 py-3 text-sm font-semibold text-zinc-900 md:px-6 md:py-4 md:text-base"
+      className="group relative w-fit overflow-hidden rounded-full bg-spring-100 px-5 py-3 text-sm font-semibold text-stone-800 md:px-7 md:py-4 md:text-base"
     >
       <div className="flex flex-row items-center justify-center gap-2">
-        <div className="group-hover:text-white">
+        <div className="z-20 group-hover:text-white">
           {IconComponent && <IconComponent size={size || 16} />}
         </div>
 
-        <div className="flex h-5 flex-col overflow-hidden md:h-6">
+        <div className="z-20 flex h-5 flex-col overflow-hidden md:h-6">
           <span className="-translate-y-[100%] text-white transition-transform duration-200 group-hover:translate-y-0">
             {title}
           </span>
-          <span className="-translate-y-[100%] text-zinc-950 transition-transform duration-200 group-hover:translate-y-0">
+          <span className="-translate-y-[100%] text-stone-800 transition-transform duration-200 group-hover:translate-y-0">
             {title}
           </span>
         </div>
-
-        <div className="absolute left-[50%] top-[50%] -z-10 h-1 w-1 -translate-x-[50%] -translate-y-[50%] scale-100 rounded-full bg-blue-600 opacity-0 transition-all duration-200 ease-in-out group-hover:h-full group-hover:w-full group-hover:opacity-100 " />
       </div>
+      <div className="absolute left-[50%] top-[50%] z-10 h-1 w-1 -translate-x-[50%] -translate-y-[50%] scale-100 rounded-full bg-blue-500 opacity-0 transition-all duration-200 ease-in-out group-hover:h-full group-hover:w-full group-hover:opacity-100 " />
     </button>
   )
 }
