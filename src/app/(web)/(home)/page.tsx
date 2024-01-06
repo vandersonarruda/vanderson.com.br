@@ -3,9 +3,10 @@ import Link from 'next/link'
 import { Suspense } from 'react'
 import { Button } from '@/components/button'
 import { LoadingIcon } from '@/components/loading'
+import { shimmer, toBase64 } from '@/utils/placeholder-shimmer'
 import ProjectList from '@/components/project-list'
 import StackList from '@/components/stack-list'
-import { shimmer, toBase64 } from '@/utils/placeholder-shimmer'
+import AwardsList from '@/components/awards-list'
 
 // TODO:
 // - remover Promise
@@ -25,9 +26,9 @@ export default async function Home() {
   // await new Promise((resolve) => setTimeout(resolve, 10000))
 
   return (
-    <div>
+    <div className="overflow-hidden">
       <section className="mx-auto flex max-w-limit flex-col items-center">
-        <div className="flex w-[90%] flex-col gap-4 md:w-[75%] md:gap-6 lg:gap-8 xl:w-[70%]">
+        <div className="flex w-[85%] flex-col gap-4 md:w-[75%] md:gap-6 lg:gap-8 xl:w-[70%]">
           <h1 className="flex flex-col text-5xl font-bold leading-tight tracking-tight md:text-[5rem] md:leading-[1.1] lg:text-[7rem] lg:leading-[1.1]">
             <span>👋 Hey,</span>
             <span>I&apos;m Vanderson</span>
@@ -42,7 +43,7 @@ export default async function Home() {
 
       {/* Cover */}
       <section className="mx-auto mt-8 max-w-limit md:mt-16 lg:mt-24">
-        <div className="px-5">
+        <div className="mx-auto w-[95%]">
           <Link
             href="/project/pirelli-christs-view"
             className="flex w-full flex-col items-center overflow-hidden rounded-small  md:rounded-medium  lg:rounded-extra"
@@ -68,7 +69,7 @@ export default async function Home() {
 
       {/* About Me */}
       <section className="mx-auto my-12 flex max-w-limit flex-col items-center md:my-16 lg:my-24">
-        <div className="w-[90%] text-base font-normal leading-relaxed md:w-[75%] md:text-xl md:leading-relaxed lg:text-2xl lg:leading-relaxed xl:w-[70%]">
+        <div className="w-[85%] text-base font-normal leading-relaxed md:w-[75%] md:text-xl md:leading-relaxed lg:text-2xl lg:leading-relaxed xl:w-[70%]">
           <div className="mb-8 flex flex-col gap-5">
             <p>
               Two decades of coding and still counting, I&apos;ve been
@@ -97,34 +98,42 @@ export default async function Home() {
       </section>
 
       {/* Featured work */}
-      <div className="w-full bg-zinc-950 py-12 md:py-16 lg:py-24">
-        <section className="mx-auto flex max-w-limit flex-col items-center">
-          <div className="flex w-[90%] flex-col gap-6 md:w-[85%]">
-            <h1 className="text-5xl font-bold leading-tight tracking-tight text-white md:text-[5rem] md:leading-tight lg:text-[7rem] lg:leading-tight">
-              Featured work
-            </h1>
+      <div className="bg-black py-12 md:py-16 lg:py-20">
+        <section className="mx-auto flex w-[85%] max-w-limit flex-col gap-8 md:gap-10">
+          <h3 className="text-5xl font-bold leading-tight tracking-tight text-white md:text-[5rem] md:leading-tight lg:text-[7rem] lg:leading-tight">
+            Selected work
+          </h3>
 
-            <Suspense fallback={<LoadingIcon isDark={true} />}>
-              <ProjectList />
-            </Suspense>
-          </div>
+          <Suspense fallback={<LoadingIcon isDark={true} />}>
+            <ProjectList />
+          </Suspense>
         </section>
       </div>
 
       {/* Tech stack */}
-      <div className="w-full bg-stone-50 py-12 md:py-16 lg:py-24">
-        <section className="mx-auto flex max-w-limit flex-col items-center">
-          <div className="flex w-[90%] flex-col gap-6 md:w-[85%]">
-            <h1 className="text-5xl font-bold leading-tight tracking-tight md:text-[5rem] md:leading-tight lg:text-[7rem] lg:leading-tight">
-              Tech stack
-            </h1>
+      <div className="py-12 md:py-16 lg:py-20">
+        <section className="mx-auto flex w-[85%] max-w-limit flex-col gap-8 md:gap-10">
+          <h3 className="text-5xl font-bold leading-tight tracking-tight md:text-[5rem] md:leading-tight lg:text-[7rem] lg:leading-tight">
+            Tech stack
+          </h3>
 
-            <div className="grid w-full grid-cols-2 md:grid-cols-2 lg:grid-cols-4">
-              <Suspense fallback={<LoadingIcon />}>
-                <StackList />
-              </Suspense>
-            </div>
-          </div>
+          <Suspense fallback={<LoadingIcon />}>
+            <StackList />
+          </Suspense>
+        </section>
+      </div>
+
+      {/* Awards stack */}
+
+      <div className="bg-gradient-to-r from-[#8fd3f4] to-[#84fab0] py-12 md:py-16 lg:py-20">
+        <section className="mx-auto flex w-[85%] max-w-limit flex-col gap-8 md:gap-10">
+          <h3 className="text-5xl font-bold leading-tight tracking-tight md:text-[5rem] md:leading-tight lg:text-[7rem] lg:leading-tight">
+            Awards
+          </h3>
+
+          <Suspense fallback={<LoadingIcon />}>
+            <AwardsList />
+          </Suspense>
         </section>
       </div>
     </div>

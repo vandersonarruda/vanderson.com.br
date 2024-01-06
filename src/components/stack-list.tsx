@@ -12,28 +12,29 @@ async function getStacks(): Promise<Stack[]> {
 export default async function StackList() {
   const stacks = await getStacks()
 
+  // const length = stacks.length
+
   return (
-    <>
+    <div className="mx-auto grid h-fit w-[100%] grid-cols-2 gap-2 md:grid-cols-4 lg:grid-cols-4">
       {stacks.map((item, index) => (
-        <div
-          key={item.title}
-          className="mb-10 h-fit w-[94%] rounded-2xl border-[1px] border-stone-100 bg-white p-4"
-        >
-          <p className="text-sm font-semibold tracking-tight lg:text-base">
-            ({String(Number(index + 1)).padStart(2, '0')})
-          </p>
+        <>
+          <div key={item.title} className="h-fit w-full">
+            <p className="text-sm font-semibold tracking-tight lg:text-base">
+              ({String(Number(index + 1)).padStart(2, '0')})
+            </p>
 
-          <h2 className="flex text-xl font-semibold leading-tight tracking-tight md:text-xl md:leading-tight lg:text-3xl lg:leading-tight">
-            {item.title}
-          </h2>
+            <h2 className="flex text-xl font-semibold leading-tight tracking-tight md:text-xl md:leading-tight lg:text-3xl lg:leading-tight">
+              {item.title}
+            </h2>
 
-          <div className="text-md mt-4 grid text-base font-normal leading-normal text-neutral-500 md:text-base md:leading-normal lg:text-lg lg:leading-relaxed">
-            {item.content.map((content) => (
-              <p key={content}>{content}</p>
-            ))}
+            <div className="text-md lg:text-bg mt-4 grid text-base font-normal leading-normal text-zinc-950/80 md:text-base md:leading-snug lg:leading-snug">
+              {item.content.map((content) => (
+                <p key={content}>{content}</p>
+              ))}
+            </div>
           </div>
-        </div>
+        </>
       ))}
-    </>
+    </div>
   )
 }
