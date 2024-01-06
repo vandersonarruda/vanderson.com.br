@@ -27,13 +27,13 @@ export default async function ProjectPage({ params }: ProjectProps) {
   const project = await getProject(params.slug)
 
   return (
-    <section className="max-w-limit mx-auto px-4 md:px-16 lg:px-16">
+    <section className="mx-auto max-w-limit px-4 md:px-16 lg:px-16">
       <div className="mx-8 md:mx-20 lg:mx-36">
-        <h2 className="flex flex-col text-xl font-normal leading-normal md:text-2xl md:leading-normal lg:text-3xl lg:leading-tight">
+        <h2 className="flex flex-col text-xl font-normal leading-tight tracking-tight md:text-2xl md:leading-tight lg:text-3xl lg:leading-none">
           {project.client} ({project.year})
         </h2>
 
-        <h1 className="text-2xl font-extrabold leading-tight md:text-4xl md:leading-tight lg:text-5xl lg:leading-tight">
+        <h1 className="text-2xl font-bold leading-tight tracking-tight md:text-4xl md:leading-tight lg:text-5xl lg:leading-tight">
           {project.title}
         </h1>
       </div>

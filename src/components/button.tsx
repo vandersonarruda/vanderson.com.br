@@ -30,7 +30,7 @@ export function Button({ title, link, iconName, size }: ButtonProps) {
   return (
     <button
       onClick={handleClick}
-      className="group relative w-fit overflow-hidden rounded-full bg-spring-100 px-5 py-3 text-sm font-semibold text-stone-800 md:px-7 md:py-4 md:text-base"
+      className="group relative w-fit overflow-hidden rounded-full bg-gray-100 px-5 py-3 text-sm font-semibold text-neutral-800 md:px-6 md:py-3 md:text-base"
     >
       <div className="flex flex-row items-center justify-center gap-2">
         <div className="z-20 group-hover:text-white">
@@ -41,12 +41,12 @@ export function Button({ title, link, iconName, size }: ButtonProps) {
           <span className="-translate-y-[100%] text-white transition-transform duration-200 group-hover:translate-y-0">
             {title}
           </span>
-          <span className="-translate-y-[100%] text-stone-800 transition-transform duration-200 group-hover:translate-y-0">
+          <span className="-translate-y-[100%] text-neutral-800 transition-transform duration-200 group-hover:translate-y-0">
             {title}
           </span>
         </div>
       </div>
-      <div className="absolute left-[50%] top-[50%] z-10 h-1 w-1 -translate-x-[50%] -translate-y-[50%] scale-100 rounded-full bg-blue-500 opacity-0 transition-all duration-200 ease-in-out group-hover:h-full group-hover:w-full group-hover:opacity-100 " />
+      <div className="absolute left-[50%] top-[50%] z-10 h-1 w-1 -translate-x-[50%] -translate-y-[50%] scale-100 rounded-full bg-neutral-800 opacity-0 transition-all duration-200 ease-in-out group-hover:h-full group-hover:w-full group-hover:opacity-100 " />
     </button>
   )
 }

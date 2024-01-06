@@ -1,6 +1,6 @@
 'use client'
 
-import { MoveLeft } from 'lucide-react'
+import { ChevronLeft } from 'lucide-react'
 import { usePathname, useRouter } from 'next/navigation'
 
 export function BackButton() {
@@ -16,10 +16,10 @@ export function BackButton() {
       {pathname !== '/' ? (
         <button
           onClick={handleClick}
-          className="group flex w-fit items-center justify-center gap-2 rounded-lg px-4 py-2 text-xl font-semibold text-zinc-900 md:text-xl"
+          className="group flex w-fit items-center justify-center gap-2 rounded-lg px-4 py-2 text-xl font-semibold text-neutral-800 md:text-xl"
         >
-          <MoveLeft className="transition-all duration-100 ease-in group-hover:-ml-3 group-hover:text-blue-600" />
-          <p className="transition-all duration-100 ease-in group-hover:ml-3 group-hover:text-blue-600">
+          <ChevronLeft className="transition-all duration-200 ease-in-out group-hover:-ml-2 group-hover:text-neutral-800/80" />
+          <p className="transition-all duration-200 ease-in-out group-hover:ml-3 group-hover:text-neutral-800/80">
             Back
           </p>
         </button>

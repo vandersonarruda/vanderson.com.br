@@ -365,7 +365,7 @@
   "stacks":[
     {
       "title": "Frontend",
-      "content": ["JavaScript", "TypeScript", "React", "React Native", "Next.js", "Vite", "Vue", "Tailwind CSS", "Styled-components", "Design System", "Storybook"] 
+      "content": ["JavaScript", "TypeScript", "React", "React Native", "Next.js", "Vite", "Vue", "Tailwind", "Styled-components", "Design System", "Storybook"] 
     },
     {
       "title": "Backend",
@@ -376,12 +376,8 @@
       "content": ["AWS EC2", "AWS S3", "Docker", "Docker Compose", "Serverless"] 
     },
     {
-      "title": "Hardware & IoT",
-      "content": ["Arduino", "ESP32 Espressif", "Raspberry Pi", "Jetson Nano", "Adafruit Feather", "Micropython", "3D Printing", "Fusion 360"] 
-    },
-    {
       "title": "Creative Coding",
-      "content": ["Processing", "TouchDesigner", "OpenCV", "TensorFlow", "MediaPipe"] 
+      "content": ["Arduino", "ESP32 Espressif", "Raspberry Pi", "Jetson Nano", "Adafruit Feather", "Micropython", "3D Printing", "Fusion 360","Processing", "TouchDesigner", "OpenCV", "TensorFlow", "MediaPipe"] 
     }
   ]
 }

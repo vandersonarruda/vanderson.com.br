@@ -13,23 +13,27 @@ export default async function StackList() {
   const stacks = await getStacks()
 
   return (
-    <div className="">
-      {stacks.map((item) => (
+    <>
+      {stacks.map((item, index) => (
         <div
           key={item.title}
-          className="mb-6 h-fit rounded-2xl bg-blue-500 p-6"
+          className="mb-10 h-fit w-[94%] rounded-2xl border-[1px] border-stone-100 bg-white p-4"
         >
-          <h2 className="mb-4 flex flex-col items-center text-xl font-bold leading-normal md:text-2xl md:leading-normal lg:text-2xl lg:leading-normal">
+          <p className="text-sm font-semibold tracking-tight lg:text-base">
+            ({String(Number(index + 1)).padStart(2, '0')})
+          </p>
+
+          <h2 className="flex text-xl font-semibold leading-tight tracking-tight md:text-xl md:leading-tight lg:text-3xl lg:leading-tight">
             {item.title}
           </h2>
 
-          <div className="text-md flex flex-col items-center font-medium leading-normal text-zinc-50 md:text-xl md:leading-normal lg:text-lg lg:leading-normal">
+          <div className="text-md mt-4 grid text-base font-normal leading-normal text-neutral-500 md:text-base md:leading-normal lg:text-lg lg:leading-relaxed">
             {item.content.map((content) => (
               <p key={content}>{content}</p>
             ))}
           </div>
         </div>
       ))}
-    </div>
+    </>
   )
 }
