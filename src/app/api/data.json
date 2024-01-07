@@ -9,7 +9,9 @@
       "role": "Alongside leading the makers team, I developed firmware code and implemented mobile integration for remote control of the puzzle boxes.",
       "slug": "netflix-glass-onion",
       "cover": "cover.png",
-      "video": ["https://www.youtube.com/watch?v=5D0aRw2O_I8"],
+      "video": [
+        "https://www.youtube.com/watch?v=5D0aRw2O_I8"
+      ],
       "images": [
         "35c3ef42-f1ac-4fb3-bb51-599d705485ca.jpg",
         "335ba1bc-ec49-4efd-ad10-81c2e3d67b96.jpg",
@@ -27,7 +29,9 @@
       "role": "I led the makers team and was responsible for translating Unity code into the firmware, ensuring seamless integration and functionality.",
       "slug": "terminator-mmodel-101",
       "cover": "cover.png",
-      "video": ["https://www.youtube.com/watch?v=n9KGUbV9SKg"],
+      "video": [
+        "https://www.youtube.com/watch?v=n9KGUbV9SKg"
+      ],
       "images": [
         "3d653223-dca3-4704-9e4c-d050f52592d4.jpg",
         "7da9989a-ec7e-40e5-bec0-aa8aceceb3ab.jpg",
@@ -44,7 +48,10 @@
       "role": "I was responsible for technical leadership, coordinated with suppliers, and developed firmware.",
       "slug": "kfc-zinger",
       "cover": "cover.png",
-      "video": ["https://www.youtube.com/watch?v=fTY6u5O2wls", "https://www.youtube.com/watch?v=beY247nbwNc"],
+      "video": [
+        "https://www.youtube.com/watch?v=fTY6u5O2wls",
+        "https://www.youtube.com/watch?v=beY247nbwNc"
+      ],
       "images": [
         "927faf30-d75b-4332-ab8e-ffe2515fb37c.jpg",
         "cf29bd16-6c52-4445-92de-d8b48ad71cf7.gif",
@@ -62,7 +69,10 @@
       "role": "I led the maker team and programmed the motor movements of the robotic kraken, contributing to the interactive Twitch experience.",
       "slug": "old-spice-squid",
       "cover": "cover.png",
-      "video": ["https://www.youtube.com/watch?v=HkReyJF_29E", "https://www.youtube.com/watch?v=MUqvyWu7NR0"],
+      "video": [
+        "https://www.youtube.com/watch?v=HkReyJF_29E",
+        "https://www.youtube.com/watch?v=MUqvyWu7NR0"
+      ],
       "images": [
         "5487149a-e4d1-4cfa-8014-679ac1187678.png",
         "825e44b9-608b-4d75-a425-b14887a45233.png",
@@ -79,7 +89,9 @@
       "role": "",
       "slug": "samsung-galaxy-surfboard",
       "cover": "cover.png",
-      "video": ["https://youtu.be/vOD48POMjNg"],
+      "video": [
+        "https://youtu.be/vOD48POMjNg"
+      ],
       "images": [
         "55911f1f-6e48-4271-bd83-03dc4f55a205.jpeg",
         "6e83e771-15c1-4339-aefd-28deef09ca48.png",
@@ -97,7 +109,9 @@
       "role": "",
       "slug": "pirelli-christs-view",
       "cover": "cover.jpeg",
-      "video": ["https://youtu.be/bgaYUrOmCXk"],
+      "video": [
+        "https://youtu.be/bgaYUrOmCXk"
+      ],
       "images": [
         "0af32c54-82e4-4a11-a4b5-80d61724ea2c.jpeg",
         "225fbb9e-aa5b-48f5-aea8-eb81ed9a16c0.jpeg",
@@ -114,7 +128,9 @@
       "role": "I was the Tech Lead and developed the firmware for devices interacting with NFC bracelets to trigger animatronics.",
       "slug": "cooltopia-nft",
       "cover": "cover.png",
-      "video": ["https://www.youtube.com/watch?v=mODOrCOF2Pc"],
+      "video": [
+        "https://www.youtube.com/watch?v=mODOrCOF2Pc"
+      ],
       "images": [
         "4f1ff2aa-b4e4-43bb-8fdb-49cf49a295a0.jpg",
         "6229c29f-b0fc-4cdf-9b5e-6f4a0d648a15.jpg",
@@ -131,7 +147,9 @@
       "role": "I was responsible for technical leadership",
       "slug": "volkswagen-amarok-arcade",
       "cover": "cover.jpeg",
-      "video": ["https://www.youtube.com/watch?v=2RiJ0MauL2Q"],
+      "video": [
+        "https://www.youtube.com/watch?v=2RiJ0MauL2Q"
+      ],
       "images": [
         "7db2b18d-a048-475c-a4ca-763e3295575a.jpeg",
         "4721e21b-f1d1-4a9e-a6ca-ad1aa7873d1d.jpeg",
@@ -148,7 +166,9 @@
       "role": "",
       "slug": "cea-fashion-like",
       "cover": "cover.jpeg",
-      "video": ["https://youtu.be/kPKKg4SIWDU"],
+      "video": [
+        "https://youtu.be/kPKKg4SIWDU"
+      ],
       "images": [
         "ebf01168-84d7-42b5-957d-2d349443118f.jpg",
         "8c48b37c-09ec-4ea1-b8a8-7bf910c82862.jpeg",
@@ -165,7 +185,9 @@
       "role": "I was responsible for technical leadership",
       "slug": "mastercard-impossible-mascots",
       "cover": "cover.jpeg",
-      "video": ["https://www.youtube.com/watch?v=XbQ2W7B619g"],
+      "video": [
+        "https://www.youtube.com/watch?v=XbQ2W7B619g"
+      ],
       "images": [
         "157c2e41-fb1c-4a68-b2d8-782ec3811261.jpeg",
         "48196c08-25b1-4702-922c-ad28a0f6ea48.png",
@@ -184,7 +206,9 @@
       "role": "",
       "slug": "natgeo-microphone-truth",
       "cover": "cover.jpg",
-      "video": ["https://youtu.be/bstkEUL_jHo"],
+      "video": [
+        "https://youtu.be/bstkEUL_jHo"
+      ],
       "images": [
         "7e31507b-dd6d-45db-a024-5bc949ead76f.gif",
         "f8b2fbf6-c4a4-44d5-b574-2c83b3cd013a.gif"
@@ -200,7 +224,9 @@
       "role": "",
       "slug": "amazon-jack-ryan-training-field",
       "cover": "cover.png",
-      "video": ["https://youtu.be/OFhZJqSLmEk"],
+      "video": [
+        "https://youtu.be/OFhZJqSLmEk"
+      ],
       "images": [],
       "featured": true
     },
@@ -213,7 +239,9 @@
       "role": "",
       "slug": "shell-eddie-bobblehead",
       "cover": "cover.jpeg",
-      "video": ["https://youtu.be/DxfmKM2Hpfc"],
+      "video": [
+        "https://youtu.be/DxfmKM2Hpfc"
+      ],
       "images": [
         "5605cc96-78fc-41cc-9221-91c8159129b0.jpeg",
         "8e48b8b3-576a-4a86-842a-0708f0b6216a.jpeg",
@@ -230,7 +258,9 @@
       "role": "",
       "slug": "stella-artois-water-ripples",
       "cover": "cover.png",
-      "video": ["https://youtu.be/F5IJ8SCwoYI"],
+      "video": [
+        "https://youtu.be/F5IJ8SCwoYI"
+      ],
       "images": [
         "44eb1a82-b5b6-4ddb-9482-4920ba23cf28.gif",
         "e53e2f57-dff1-44ce-926e-84df422ed22c.jpeg",
@@ -248,7 +278,9 @@
       "role": "",
       "slug": "skol-smart-beats",
       "cover": "cover.jpeg",
-      "video": ["https://youtu.be/uWPmbgAln80"],
+      "video": [
+        "https://youtu.be/uWPmbgAln80"
+      ],
       "images": [
         "1470fff4-91dc-4314-8df3-6215180fb69b.jpeg",
         "e85634e8-0ef9-45c7-9fe0-af026c76000b.gif",
@@ -265,7 +297,9 @@
       "role": "",
       "slug": "google-mobile-recall",
       "cover": "cover.png",
-      "video": ["https://youtu.be/ZRj9oICvoFQ"],
+      "video": [
+        "https://youtu.be/ZRj9oICvoFQ"
+      ],
       "images": [
         "150e5168-0f06-4311-9c68-d8c0110e4d96.jpeg",
         "4128cfb0-a895-4dd7-b1a7-7bcdd065f950.png",
@@ -283,7 +317,9 @@
       "role": "I was responsible for technical leadership, actively seeking innovative technical solutions.",
       "slug": "ge-ar-demonstration",
       "cover": "cover.png",
-      "video": ["https://www.youtube.com/watch?v=06IPAwsoB3A"],
+      "video": [
+        "https://www.youtube.com/watch?v=06IPAwsoB3A"
+      ],
       "images": [
         "37e26f46-4129-4663-abe5-b7e1b22c82e9.jpeg",
         "be81c520-ff6b-411a-be59-339cac2baa78.jpeg",
@@ -301,7 +337,9 @@
       "role": "",
       "slug": "colgate-mummy floss-hero",
       "cover": "cover.png",
-      "video": ["https://youtu.be/bFkx0JPhxUc"],
+      "video": [
+        "https://youtu.be/bFkx0JPhxUc"
+      ],
       "images": [
         "61c1a639-50e4-4341-80a1-9f3a615e6ccf.png",
         "9528f60d-3272-41ae-8e4b-1e7e085b37e9.png",
@@ -319,7 +357,9 @@
       "role": "",
       "slug": "youtube-viewbusters",
       "cover": "cover.jpg",
-      "video": ["https://youtu.be/EAaTCsG0BuY"],
+      "video": [
+        "https://youtu.be/EAaTCsG0BuY"
+      ],
       "images": [
         "52fb9318-9481-49c9-9c17-d542fffd9d1b.png",
         "6cb239c6-594e-442d-a704-6b6f9c85535d.png",
@@ -337,7 +377,9 @@
       "role": "",
       "slug": "cea-like-ad",
       "cover": "cover.jpeg",
-      "video": ["https://youtu.be/cZyC70PSKLw"],
+      "video": [
+        "https://youtu.be/cZyC70PSKLw"
+      ],
       "images": [
         "518bdbf2-39a7-4e96-a4b1-7c036aea0179.jpeg",
         "602b3c12-33ad-4232-bd10-e307fa4d8549.jpeg",
@@ -354,7 +396,11 @@
       "role": "",
       "slug": "ford-focus-fastback",
       "cover": "cover.png",
-      "video": ["https://youtu.be/ZXfmOOWiCaA", "https://youtu.be/y04L_ozcF10", "https://youtu.be/GNb68DKwywQ"],
+      "video": [
+        "https://youtu.be/ZXfmOOWiCaA",
+        "https://youtu.be/y04L_ozcF10",
+        "https://youtu.be/GNb68DKwywQ"
+      ],
       "images": [
         "6870a5b1-1955-4027-9de4-c9e80cd18fb8.png",
         "73c0eb28-fffa-404b-9c06-f6cd6a1a9ef8.png"
@@ -362,22 +408,1048 @@
       "featured": true
     }
   ],
-  "stacks":[
+  "stacks": [
     {
       "title": "Frontend",
-      "content": ["JavaScript", "TypeScript", "React", "React Native", "Next.js", "Vite", "Vue", "Tailwind", "Styled-components", "Design System", "Storybook"] 
+      "content": [
+        "JavaScript",
+        "TypeScript",
+        "React",
+        "React Native",
+        "Next.js",
+        "Vite",
+        "Vue",
+        "Tailwind",
+        "Styled-components",
+        "Design System",
+        "Storybook"
+      ]
     },
     {
       "title": "Backend",
-      "content": ["Node.js", "Fastify", "Nest.js", "Python", "Monorepo", "Prisma", "Knex", "MySQL", "PostgreSQL", "NoSQL"] 
+      "content": [
+        "Node.js",
+        "Fastify",
+        "Nest.js",
+        "Python",
+        "Monorepo",
+        "Prisma",
+        "Knex",
+        "MySQL",
+        "PostgreSQL",
+        "NoSQL"
+      ]
     },
     {
       "title": "DevOps",
-      "content": ["AWS EC2", "AWS S3", "Docker", "Docker Compose", "Serverless"] 
+      "content": [
+        "AWS EC2",
+        "AWS S3",
+        "Docker",
+        "Docker Compose",
+        "Serverless"
+      ]
     },
     {
       "title": "Creative Coding",
-      "content": ["Arduino", "ESP32 Espressif", "Raspberry Pi", "Jetson Nano", "Adafruit Feather", "Micropython", "3D Printing", "Fusion 360","Processing", "TouchDesigner", "OpenCV", "TensorFlow", "MediaPipe"] 
+      "content": [
+        "Arduino",
+        "ESP32 Espressif",
+        "Raspberry Pi",
+        "Jetson Nano",
+        "Adafruit Feather",
+        "Micropython",
+        "3D Printing",
+        "Fusion 360",
+        "Processing",
+        "TouchDesigner",
+        "OpenCV",
+        "TensorFlow",
+        "MediaPipe"
+      ]
+    }
+  ],
+  "awards": [
+    {
+      "title": "Cannes Lions",
+      "conquers": [
+        {
+          "year": "2018",
+          "position": "Bronze",
+          "category": "Outdoor Interactive Experiences",
+          "client": "Nike",
+          "project": "React Game of Go"
+        },
+        {
+          "year": "2018",
+          "position": "Bronze",
+          "category": "Design Digital Installations & Events",
+          "client": "Nike",
+          "project": "React Game of Go"
+        },
+        {
+          "year": "2018",
+          "position": "Bronze",
+          "category": "Design Environment & Experience",
+          "client": "Nike",
+          "project": "React Game of Go"
+        },
+        {
+          "year": "2018",
+          "position": "Bronze",
+          "category": "Digital Motion Graphics Design & Animation",
+          "client": "Nike",
+          "project": "React Game of Go"
+        },
+        {
+          "year": "2016",
+          "position": "Bronze",
+          "category": "Pharma Lions",
+          "client": "Astellas Pharma Brasil",
+          "project": "Pee Against The Luts Wrong Diagnosis"
+        },
+        {
+          "year": "2015",
+          "position": "Bronze",
+          "category": "Promo",
+          "client": "Café Pelé",
+          "project": "The Contagious Billboard"
+        },
+        {
+          "year": "2013",
+          "position": "Bronze",
+          "category": "Promo",
+          "client": "Antarctica",
+          "project": "The Beer Turnstile"
+        },
+        {
+          "year": "2012",
+          "position": "Silver",
+          "category": "Outdoor",
+          "client": "C&A",
+          "project": "Fashion Like"
+        },
+        {
+          "year": "2012",
+          "position": "Bronze",
+          "category": "Media",
+          "client": "C&A",
+          "project": "Fashion Like"
+        },
+        {
+          "year": "2012",
+          "position": "Bronze",
+          "category": "Promo",
+          "client": "C&A",
+          "project": "Fashion Like"
+        },
+        {
+          "year": "2012",
+          "position": "Bronze",
+          "category": "Direct",
+          "client": "C&A",
+          "project": "Fashion Like"
+        },
+        {
+          "year": "2012",
+          "position": "Bronze",
+          "category": "Direct",
+          "client": "C&A",
+          "project": "Look Block"
+        },
+        {
+          "year": "2010",
+          "position": "Bronze",
+          "category": "Design",
+          "client": "JWT",
+          "project": "The View Of The Brands"
+        }
+      ]
+    },
+    {
+      "title": "CLIO Awards",
+      "conquers": [
+        {
+          "year": "2023",
+          "position": "Silver",
+          "category": "",
+          "client": "Netflix",
+          "project": "Glass Onion Puzzle Boxes"
+        },
+        {
+          "year": "2017",
+          "position": "Silver",
+          "category": "",
+          "client": "American Express",
+          "project": "Pro Walk"
+        },
+        {
+          "year": "2017",
+          "position": "Silver",
+          "category": "",
+          "client": "American Express",
+          "project": "Pro Walk"
+        },
+        {
+          "year": "2017",
+          "position": "Bronze",
+          "category": "",
+          "client": "American Express",
+          "project": "Pro Walk"
+        },
+        {
+          "year": "2017",
+          "position": "Bronze",
+          "category": "",
+          "client": "Astellas Pharma Brasil",
+          "project": "Pee Against The Wrong Diagnosis"
+        },
+        {
+          "year": "2013",
+          "position": "Silver",
+          "category": "",
+          "client": "C&A",
+          "project": "Look Block"
+        }
+      ]
+    },
+    {
+      "title": "Effie Awards",
+      "conquers": [
+        {
+          "year": "2021",
+          "position": "Silver",
+          "category": "Latam",
+          "client": "Mastercard",
+          "project": "Mascotes Impossíveis"
+        },
+        {
+          "year": "2021",
+          "position": "Bronze",
+          "category": "Latam",
+          "client": "Mastercard",
+          "project": "Mascotes Impossíveis"
+        },
+        {
+          "year": "2020",
+          "position": "Gold",
+          "category": "Brazil",
+          "client": "Mastercard",
+          "project": "Mascotes impossíveis"
+        }
+      ]
+    },
+    {
+      "title": "New York Festivals",
+      "conquers": [
+        {
+          "year": "2016",
+          "position": "Shortlist",
+          "category": "Outdoor",
+          "client": "Volkswagen",
+          "project": "ACC Bus Back"
+        },
+        {
+          "year": "2014",
+          "position": "Shortlist",
+          "category": "Direct",
+          "client": "Antarctica",
+          "project": "The Beer Turnstile"
+        },
+        {
+          "year": "2014",
+          "position": "Shortlist",
+          "category": "Outdoor: Billboards",
+          "client": "Antarctica",
+          "project": "The Beer Turnstile"
+        },
+        {
+          "year": "2014",
+          "position": "Shortlist",
+          "category": "Public: Civic & Social Education",
+          "client": "Antarctica",
+          "project": "The Beer Turnstile"
+        },
+        {
+          "year": "2014",
+          "position": "Shortlist",
+          "category": "Public: Philanthropic Appeals",
+          "client": "Antarctica",
+          "project": "The Beer Turnstile"
+        },
+        {
+          "year": "2014",
+          "position": "Shortlist",
+          "category": "Direct: Products",
+          "client": "Antarctica",
+          "project": "The Beer Turnstile"
+        },
+        {
+          "year": "2014",
+          "position": "Shortlist",
+          "category": "Outdoor: Use Of Medium",
+          "client": "Antarctica",
+          "project": "The Beer Turnstile"
+        },
+        {
+          "year": "2013",
+          "position": "Bronze",
+          "category": "Outdoor",
+          "client": "C&A",
+          "project": "Fashion Like"
+        },
+        {
+          "year": "2013",
+          "position": "Shortlist",
+          "category": "Digital",
+          "client": "C&A",
+          "project": "Fashion Like"
+        },
+        {
+          "year": "2013",
+          "position": "Shortlist",
+          "category": "Digital",
+          "client": "C&A",
+          "project": "Look Block"
+        }
+      ]
+    },
+    {
+      "title": "LIA",
+      "conquers": [
+        {
+          "year": "2017",
+          "position": "Shortlist",
+          "category": "Design",
+          "client": "Google",
+          "project": "Mobile Arcade"
+        },
+        {
+          "year": "2016",
+          "position": "Shortlist",
+          "category": "Digital",
+          "client": "Samsung",
+          "project": "Galaxy Surfboard"
+        },
+        {
+          "year": "2012",
+          "position": "Silver",
+          "category": "The New",
+          "client": "C&A",
+          "project": "Fashion Like"
+        },
+        {
+          "year": "2012",
+          "position": "Silver",
+          "category": "Digital",
+          "client": "Panamericana",
+          "project": "Inner Creative"
+        }
+      ]
+    },
+    {
+      "title": "The One Show",
+      "conquers": [
+        {
+          "year": "2017",
+          "position": "Design Merit Award",
+          "category": "",
+          "client": "Google",
+          "project": "Mobile Arcade"
+        },
+        {
+          "year": "2017",
+          "position": "Mobile Merit Award",
+          "category": "",
+          "client": "Samsung",
+          "project": "Galaxy Surfboard"
+        },
+        {
+          "year": "2017",
+          "position": "Direct Merit Award",
+          "category": "",
+          "client": "Jeep -Vigilant Wallpapers",
+          "project": ""
+        },
+        {
+          "year": "2016",
+          "position": "Print & Outdoor Merit",
+          "category": "",
+          "client": "Volkswagen",
+          "project": "ACC Bus Back"
+        }
+      ]
+    },
+    {
+      "title": "CCSP",
+      "conquers": [
+        {
+          "year": "2013",
+          "position": "Ouro",
+          "category": "Promocional",
+          "client": "C&A",
+          "project": "Fashion Like"
+        },
+        {
+          "year": "2013",
+          "position": "Ouro",
+          "category": "Marketing Direto",
+          "client": "C&A",
+          "project": "Fashion Like"
+        },
+        {
+          "year": "2013",
+          "position": "Ouro",
+          "category": "Digital Ferramenta Interativa",
+          "client": "C&A",
+          "project": "Fashion Like"
+        },
+        {
+          "year": "2013",
+          "position": "Silver",
+          "category": "Marketing Direto",
+          "client": "Antarctica",
+          "project": "The Beer Turnstile"
+        },
+        {
+          "year": "2013",
+          "position": "Bronze",
+          "category": "Promocional",
+          "client": "Antarctica",
+          "project": "The Beer Turnstile"
+        },
+        {
+          "year": "2013",
+          "position": "Bronze",
+          "category": "Digital",
+          "client": "Panamericana",
+          "project": "Inner Creative"
+        },
+        {
+          "year": "2013",
+          "position": "Bronze",
+          "category": "Outdoor",
+          "client": "C&A",
+          "project": "Fashion Like"
+        },
+        {
+          "year": "2013",
+          "position": "Anuário",
+          "category": "Integrada",
+          "client": "C&A",
+          "project": "Fashion Like"
+        },
+        {
+          "year": "2013",
+          "position": "Anuário",
+          "category": "Outdoor",
+          "client": "Antarctica",
+          "project": "The Beer Turnstile"
+        },
+        {
+          "year": "2009",
+          "position": "Silver",
+          "category": "Internet",
+          "client": "Ford",
+          "project": "The New Ford Ka"
+        }
+      ]
+    },
+    {
+      "title": "FIAP Ibero American Advertising Festival",
+      "conquers": [
+        {
+          "year": "2014",
+          "position": "Silver",
+          "category": "Promo",
+          "client": "Pirelli",
+          "project": "Christ’s Gaze"
+        },
+        {
+          "year": "2013",
+          "position": "Gold",
+          "category": "Innovación",
+          "client": "C&A",
+          "project": "Fashion Like"
+        },
+        {
+          "year": "2013",
+          "position": "Silver",
+          "category": "Vía Pública",
+          "client": "C&A",
+          "project": "Fashion Like"
+        },
+        {
+          "year": "2013",
+          "position": "Silver",
+          "category": "Promo",
+          "client": "C&A",
+          "project": "Fashion Like"
+        },
+        {
+          "year": "2013",
+          "position": "Silver",
+          "category": "Promo",
+          "client": "C&A",
+          "project": "Look Block"
+        },
+        {
+          "year": "2013",
+          "position": "Silver",
+          "category": "Prensa",
+          "client": "Panamericana",
+          "project": "Inner Creative"
+        },
+        {
+          "year": "2013",
+          "position": "Silver",
+          "category": "Innovación en Medios: Medios combinados",
+          "client": "Panamericana",
+          "project": "Inner Creative"
+        },
+        {
+          "year": "2013",
+          "position": "Silver",
+          "category": "Innovación en Medios: Instalaciones",
+          "client": "Antarctica",
+          "project": "The Beer Turnstile"
+        },
+        {
+          "year": "2013",
+          "position": "Silver",
+          "category": "Innovación en Medios: Auspicios",
+          "client": "Antarctica",
+          "project": "The Beer Turnstile"
+        },
+        {
+          "year": "2013",
+          "position": "Silver",
+          "category": "Creatividad Efectiva",
+          "client": "Antarctica",
+          "project": "The Beer Turnstile"
+        },
+        {
+          "year": "2013",
+          "position": "Bronze",
+          "category": "Promo",
+          "client": "Antarctica",
+          "project": "The Beer Turnstile"
+        },
+        {
+          "year": "2013",
+          "position": "Bronze",
+          "category": "Innovación en Medios: Internet",
+          "client": "Panamericana",
+          "project": "Inner Creative"
+        },
+        {
+          "year": "2013",
+          "position": "Bronze",
+          "category": "Promo: Lanzamientos",
+          "client": "Panamericana",
+          "project": "Inner Creative"
+        },
+        {
+          "year": "2013",
+          "position": "Bronze",
+          "category": "Promo: Medios combinados",
+          "client": "Panamericana",
+          "project": "Inner Creative"
+        }
+      ]
+    },
+    {
+      "title": "TheFWA",
+      "conquers": [
+        {
+          "year": "2023",
+          "position": "SOTD",
+          "category": "",
+          "client": "Coolcats",
+          "project": "Cooltopia NYC"
+        },
+        {
+          "year": "2020",
+          "position": "SOTD",
+          "category": "",
+          "client": "MediaMonks",
+          "project": "Terminator MModel"
+        },
+        {
+          "year": "2019",
+          "position": "SOTD",
+          "category": "",
+          "client": "OldSpice",
+          "project": ""
+        },
+        {
+          "year": "2018",
+          "position": "SOTD",
+          "category": "",
+          "client": "Amazon Prime",
+          "project": "The Jack Ryan Training Field"
+        },
+        {
+          "year": "2018",
+          "position": "SOTM",
+          "category": "",
+          "client": "Nike",
+          "project": "Game of GO"
+        },
+        {
+          "year": "2018",
+          "position": "SOTD",
+          "category": "",
+          "client": "Nike",
+          "project": "Game of GO"
+        },
+        {
+          "year": "2018",
+          "position": "SOTD",
+          "category": "",
+          "client": "Stella Artois",
+          "project": "Water Ripples"
+        },
+        {
+          "year": "2018",
+          "position": "SOTD",
+          "category": "",
+          "client": "GE",
+          "project": "AR Briefcase"
+        },
+        {
+          "year": "2017",
+          "position": "SOTD",
+          "category": "",
+          "client": "Samsung",
+          "project": "Galaxy Surfboard"
+        },
+        {
+          "year": "2017",
+          "position": "SOTD",
+          "category": "",
+          "client": "KFC",
+          "project": "Zinger 1 Space Mission"
+        },
+        {
+          "year": "2017",
+          "position": "SOTD",
+          "category": "",
+          "client": "Old Spice",
+          "project": "S.Q.U.I.D."
+        },
+        {
+          "year": "2017",
+          "position": "SOTD",
+          "category": "",
+          "client": "Toyota",
+          "project": "The Impossible Quest"
+        },
+        {
+          "year": "2017",
+          "position": "SOTD",
+          "category": "",
+          "client": "Google",
+          "project": "Mobile Recall"
+        },
+        {
+          "year": "2016",
+          "position": "SOTD",
+          "category": "",
+          "client": "Ford",
+          "project": "Focus Fastback Drive"
+        },
+        {
+          "year": "2015",
+          "position": "MOTD",
+          "category": "",
+          "client": "Ford",
+          "project": "Focus Fastback Drive"
+        },
+        {
+          "year": "2008",
+          "position": "SOTD",
+          "category": "",
+          "client": "Ford",
+          "project": "The New Ford Ka"
+        }
+      ]
+    },
+    {
+      "title": "El Ojo",
+      "conquers": [
+        {
+          "year": "2015",
+          "position": "Silver",
+          "category": "Via Pública",
+          "client": "Volkswagen",
+          "project": "Acc Bus Back"
+        },
+        {
+          "year": "2014",
+          "position": "Bronze",
+          "category": "Gráfica",
+          "client": "C&A",
+          "project": "Like Ad"
+        },
+        {
+          "year": "2013",
+          "position": "Silver",
+          "category": "Directo: Acciones en el campo",
+          "client": "Antarctica",
+          "project": "The Beer Turnstile"
+        },
+        {
+          "year": "2013",
+          "position": "Silver",
+          "category": "Directo: Medios Alternativos",
+          "client": "Antarctica",
+          "project": "The Beer Turnstile"
+        },
+        {
+          "year": "2013",
+          "position": "Silver",
+          "category": "Vía Pública",
+          "client": "Antarctica",
+          "project": "The Beer Turnstile"
+        },
+        {
+          "year": "2013",
+          "position": "Bronze",
+          "category": "Innovador",
+          "client": "Antarctica",
+          "project": "The Beer Turnstile"
+        },
+        {
+          "year": "2013",
+          "position": "Bronze",
+          "category": "Sustentável",
+          "client": "Antarctica",
+          "project": "The Beer Turnstile"
+        },
+        {
+          "year": "2012",
+          "position": "Gran Ojo",
+          "category": "Interactivo",
+          "client": "C&A",
+          "project": "Fashion Like"
+        },
+        {
+          "year": "2012",
+          "position": "Gold",
+          "category": "Interactivo",
+          "client": "C&A",
+          "project": "Fashion Like"
+        },
+        {
+          "year": "2012",
+          "position": "Gold",
+          "category": "Campañas Integradas",
+          "client": "Panamericana",
+          "project": "Inner Creative"
+        },
+        {
+          "year": "2012",
+          "position": "Silver",
+          "category": "Innovador",
+          "client": "C&A",
+          "project": "Fashion Like"
+        },
+        {
+          "year": "2012",
+          "position": "Silver",
+          "category": "Directo",
+          "client": "C&A",
+          "project": "Fashion Like"
+        },
+        {
+          "year": "2012",
+          "position": "Silver",
+          "category": "Promo",
+          "client": "C&A",
+          "project": "Fashion Like"
+        },
+        {
+          "year": "2012",
+          "position": "Bronze",
+          "category": "Interactivo",
+          "client": "Panamericana",
+          "project": "Inner Creative"
+        },
+        {
+          "year": "2012",
+          "position": "Bronze",
+          "category": "PR",
+          "client": "Panamericana",
+          "project": "Inner Creative"
+        },
+        {
+          "year": "2012",
+          "position": "Bronze",
+          "category": "Directo",
+          "client": "C&A",
+          "project": "Look Block"
+        },
+        {
+          "year": "2012",
+          "position": "Bronze",
+          "category": "Promo",
+          "client": "C&A",
+          "project": "Look Block"
+        }
+      ]
+    },
+    {
+      "title": "Wave Festival",
+      "conquers": [
+        {
+          "year": "2017",
+          "position": "Bronze",
+          "category": "Cyber",
+          "client": "Google",
+          "project": "Mobile Recall Arcade"
+        },
+        {
+          "year": "2017",
+          "position": "Bronze",
+          "category": "Promo",
+          "client": "Ford",
+          "project": "Comeback Calendar"
+        },
+        {
+          "year": "2015",
+          "position": "Bronze",
+          "category": "Direct",
+          "client": "Pirelli",
+          "project": "Christ’s Gaze"
+        },
+        {
+          "year": "2014",
+          "position": "Silver",
+          "category": "Direct",
+          "client": "Antarctica",
+          "project": "The Beer Turnstile"
+        },
+        {
+          "year": "2013",
+          "position": "Gold",
+          "category": "Direct",
+          "client": "C&A",
+          "project": "Fashion Like"
+        },
+        {
+          "year": "2013",
+          "position": "Gold",
+          "category": "Outdoor",
+          "client": "Panamericana",
+          "project": "Inner Creative"
+        },
+        {
+          "year": "2013",
+          "position": "Silver",
+          "category": "Cyber",
+          "client": "C&A",
+          "project": "Fashion Like"
+        },
+        {
+          "year": "2013",
+          "position": "Silver",
+          "category": "Cyber",
+          "client": "Panamericana",
+          "project": "Inner Creative"
+        },
+        {
+          "year": "2013",
+          "position": "Silver",
+          "category": "PR",
+          "client": "Panamericana",
+          "project": "Inner Creative"
+        },
+        {
+          "year": "2013",
+          "position": "Bronze",
+          "category": "Outdoor",
+          "client": "C&A",
+          "project": "Fashion Like"
+        },
+        {
+          "year": "2013",
+          "position": "Bronze",
+          "category": "Promo",
+          "client": "Panamericana",
+          "project": "Inner Creative"
+        },
+        {
+          "year": "2013",
+          "position": "Bronze",
+          "category": "Promo",
+          "client": "C&A",
+          "project": "Look Block"
+        }
+      ]
+    },
+    {
+      "title": "Ciclope Inter. Festival",
+      "conquers": [
+        {
+          "year": "2017",
+          "position": "Bronze",
+          "category": "",
+          "client": "Toyota",
+          "project": "Prius: The Impossible Quest"
+        }
+      ]
+    },
+    {
+      "title": "Jay Chiat Awards",
+      "conquers": [
+        {
+          "year": "2012",
+          "position": "Bronze",
+          "category": "Creative Technology",
+          "client": "C&A",
+          "project": "Fashion Like"
+        }
+      ]
+    },
+    {
+      "title": "Awwwards",
+      "conquers": [
+        {
+          "year": "2015",
+          "position": "Site Of The Day",
+          "category": "",
+          "client": "Ford",
+          "project": "Ford Focus Fastback Drive"
+        },
+        {
+          "year": "2013",
+          "position": "Honorable Mention",
+          "category": "",
+          "client": "vanderson.com.br",
+          "project": "Vanderson's Portfolio"
+        }
+      ]
+    },
+    {
+      "title": "Epica Awards",
+      "conquers": [
+        {
+          "year": "2012",
+          "position": "Silver",
+          "category": "Interactive",
+          "client": "C&A",
+          "project": "Fashion Like"
+        },
+        {
+          "year": "2012",
+          "position": "Silver",
+          "category": "Interactive",
+          "client": "C&A",
+          "project": "Look Block"
+        }
+      ]
+    },
+    {
+      "title": "Colunistas Brasil",
+      "conquers": [
+        {
+          "year": "2014",
+          "position": "GP",
+          "category": "Mídia Exterior",
+          "client": "Audi",
+          "project": "Instant Valuation Billboard"
+        },
+        {
+          "year": "2013",
+          "position": "GP",
+          "category": "Mídia Alternativa",
+          "client": "Antarctica",
+          "project": "The Beer Turnstile"
+        },
+        {
+          "year": "2012",
+          "position": "Gold",
+          "category": "Mídia Digital",
+          "client": "C&A",
+          "project": "Fashion Like"
+        },
+        {
+          "year": "2012",
+          "position": "Gold",
+          "category": "Cases e Mídias Integradas",
+          "client": "Panamericana",
+          "project": "Inner Creative"
+        },
+        {
+          "year": "2010",
+          "position": "Gold",
+          "category": "Cases e Mídias Integradas",
+          "client": "JWT",
+          "project": "The View Of The Brands"
+        },
+        {
+          "year": "2008",
+          "position": "Gold",
+          "category": "Websites",
+          "client": "Ford",
+          "project": "The New Ford Ka"
+        }
+      ]
+    },
+    {
+      "title": "Colunistas São Paulo",
+      "conquers": [
+        {
+          "year": "2014",
+          "position": "GP",
+          "category": "Mídia Exterior",
+          "client": "Audi",
+          "project": "Instant Valuation Billboard"
+        },
+        {
+          "year": "2013",
+          "position": "GP",
+          "category": "Mídia Alternativa",
+          "client": "Antarctica",
+          "project": "The Beer Turnstile"
+        },
+        {
+          "year": "2012",
+          "position": "GP",
+          "category": "Mídia Digital",
+          "client": "C&A",
+          "project": "Fashion Like"
+        },
+        {
+          "year": "2012",
+          "position": "Gold",
+          "category": "Cases e Mídias Integradas",
+          "client": "Panamericana",
+          "project": "Inner Creative"
+        },
+        {
+          "year": "2012",
+          "position": "Bronze",
+          "category": "Mídia Digital",
+          "client": "C&A",
+          "project": "Look Block"
+        },
+        {
+          "year": "2010",
+          "position": "Gold",
+          "category": "Cases e Mídias Integradas",
+          "client": "JWT",
+          "project": "The View Of The Brands"
+        },
+        {
+          "year": "2008",
+          "position": "Gold",
+          "category": "Websites",
+          "client": "Ford",
+          "project": "The New Ford Ka"
+        }
+      ]
     }
   ]
 }

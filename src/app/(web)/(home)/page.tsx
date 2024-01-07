@@ -34,15 +34,16 @@ export default async function Home() {
             <span>I&apos;m Vanderson</span>
           </h1>
 
-          <h2 className="flex items-center justify-end text-2xl font-semibold leading-tight tracking-tight md:w-[600px] md:text-4xl md:leading-tight lg:w-[800px] lg:text-5xl lg:leading-tight">
-            — a software engineer skilled on web, IoT, mobile & AI — working
-            remotely from São Paulo, Brazil.
+          <h2 className="flex items-center justify-end text-2xl font-semibold leading-tight tracking-tight md:w-[600px] md:text-4xl md:leading-tight lg:w-[650px] lg:text-4xl lg:leading-tight">
+            {/* — a software engineer skilled on web, IoT, mobile & AI — working
+            remotely from São Paulo, Brazil. */}
+            — a software engineer working remotely from São Paulo, Brazil.
           </h2>
         </div>
       </section>
 
       {/* Cover */}
-      <section className="mx-auto mt-8 max-w-limit md:mt-16 lg:mt-24">
+      <section className="mx-auto mt-8 max-w-limit md:mt-12 lg:mt-16">
         <div className="mx-auto w-[95%]">
           <Link
             href="/project/pirelli-christs-view"
@@ -68,32 +69,36 @@ export default async function Home() {
       </section>
 
       {/* About Me */}
-      <section className="mx-auto my-12 flex max-w-limit flex-col items-center md:my-16 lg:my-24">
-        <div className="w-[85%] text-base font-normal leading-relaxed md:w-[75%] md:text-xl md:leading-relaxed lg:text-2xl lg:leading-relaxed xl:w-[70%]">
-          <div className="mb-8 flex flex-col gap-5">
-            <p>
-              Two decades of coding and still counting, I&apos;ve been
-              programming and leading a skilled team of developers, electronic
-              engineers, industrial designers, and makers — crafting cool
-              projects for industry leaders like Netflix, Google, and Microsoft,
-              while working at top agencies such as JWT and Media.Monks.
-            </p>
-            <p>
-              When I say cool projects, I mean everything from crazy gadgets and
-              web applications to live-streaming props and immersive event
-              experiences.
-            </p>
-            <p>
-              I continuously explore new tech to ensure that my skills remain
-              fresh and cutting-edge. 🌱
-            </p>
+      <section className="mx-auto my-12 flex max-w-limit flex-col items-center md:my-16 lg:my-20">
+        <div className="flex w-[85%] flex-col gap-5 font-normal leading-relaxed first-letter:text-base md:w-[75%] md:text-xl md:leading-relaxed lg:text-2xl lg:leading-relaxed xl:w-[70%]">
+          <p>
+            Two decades of coding and still counting, I&apos;ve been programming
+            and leading a skilled team of developers, electronic engineers,
+            industrial designers, and makers — crafting cool projects for
+            industry leaders like Netflix, Google, and Microsoft, while working
+            at top agencies such as JWT and Media.Monks.
+          </p>
+          <p>
+            When I say cool projects, I mean everything from crazy gadgets and
+            web applications to live-streaming props and immersive event
+            experiences.
+          </p>
+          <p>
+            I continuously explore new tech to ensure that my skills remain
+            fresh and cutting-edge. 🌱
+          </p>
+          <div className="mt-1 flex flex-row gap-2 md:mt-3 md:gap-4">
+            <Button
+              title="LinkedIn"
+              link="https://www.linkedin.com/in/vandersonarruda/"
+              iconName="Linkedin"
+            />
+            <Button
+              title="Github"
+              link="https://github.com/vandersonarruda"
+              iconName="Github"
+            />
           </div>
-
-          <Button
-            title="LinkedIn"
-            link="https://www.linkedin.com/in/vandersonarruda/"
-            iconName="ExternalLink"
-          />
         </div>
       </section>
 
