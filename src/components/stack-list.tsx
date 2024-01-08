@@ -27,7 +27,7 @@ export default async function StackList() {
               {item.title}
             </h2>
 
-            <div className="text-md lg:text-bg mt-4 grid text-base font-normal leading-normal text-zinc-950/80 md:text-base md:leading-snug lg:leading-snug">
+            <div className="text-md lg:text-bg mt-4 grid text-base font-normal leading-normal text-zinc-950/80 md:text-lg md:leading-snug lg:leading-snug">
               {item.content.map((content) => (
                 <p key={content}>{content}</p>
               ))}

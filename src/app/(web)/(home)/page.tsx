@@ -28,23 +28,26 @@ export default async function Home() {
   return (
     <div className="overflow-hidden">
       <section className="mx-auto flex max-w-limit flex-col items-center">
-        <div className="flex w-[85%] flex-col gap-4 md:w-[75%] md:gap-6 lg:gap-8 xl:w-[70%]">
-          <h1 className="flex flex-col text-5xl font-bold leading-tight tracking-tight md:text-[5rem] md:leading-[1.1] lg:text-[7rem] lg:leading-[1.1]">
-            <span>👋 Hey,</span>
-            <span>I&apos;m Vanderson</span>
-          </h1>
+        <div className="flex w-5/6 flex-col gap-4 md:w-3/4 md:gap-6 lg:gap-10 xl:w-3/4">
+          <div className="w-fit">
+            <h1 className="text-6xl font-bold tracking-tight md:text-8xl lg:text-9xl">
+              <p>👋 Hey, I&apos;m</p>
+              <p>Vanderson</p>
+            </h1>
+          </div>
 
-          <h2 className="flex items-center justify-end text-2xl font-semibold leading-tight tracking-tight md:w-[600px] md:text-4xl md:leading-tight lg:w-[650px] lg:text-4xl lg:leading-tight">
-            {/* — a software engineer skilled on web, IoT, mobile & AI — working
-            remotely from São Paulo, Brazil. */}
-            — a software engineer working remotely from São Paulo, Brazil.
+          <h2 className="text-2xl font-medium leading-snug tracking-tight md:text-4xl md:leading-snug lg:text-5xl lg:leading-snug">
+            <p>
+              — a software engineer skilled on web/mobile & IoT, working
+              remotely from São Paulo, Brazil.
+            </p>
           </h2>
         </div>
       </section>
 
       {/* Cover */}
       <section className="mx-auto mt-8 max-w-limit md:mt-12 lg:mt-16">
-        <div className="mx-auto w-[95%]">
+        <div className="mx-auto w-11/12">
           <Link
             href="/project/pirelli-christs-view"
             className="flex w-full flex-col items-center overflow-hidden rounded-small  md:rounded-medium  lg:rounded-extra"
@@ -70,7 +73,7 @@ export default async function Home() {
 
       {/* About Me */}
       <section className="mx-auto my-12 flex max-w-limit flex-col items-center md:my-16 lg:my-20">
-        <div className="flex w-[85%] flex-col gap-5 font-normal leading-relaxed first-letter:text-base md:w-[75%] md:text-xl md:leading-relaxed lg:text-2xl lg:leading-relaxed xl:w-[70%]">
+        <div className="flex w-5/6 flex-col gap-5 font-normal leading-relaxed first-letter:text-base md:w-3/4 md:text-xl md:leading-relaxed lg:text-2xl lg:leading-relaxed">
           <p>
             Two decades of coding and still counting, I&apos;ve been programming
             and leading a skilled team of developers, electronic engineers,
@@ -103,10 +106,10 @@ export default async function Home() {
       </section>
 
       {/* Featured work */}
-      <div className="bg-black py-12 md:py-16 lg:py-20">
-        <section className="mx-auto flex w-[85%] max-w-limit flex-col gap-8 md:gap-10">
-          <h3 className="text-5xl font-bold leading-tight tracking-tight text-white md:text-[5rem] md:leading-tight lg:text-[7rem] lg:leading-tight">
-            Selected work
+      <div className="rounded-extra bg-black py-12 md:py-16 lg:py-20">
+        <section className="mx-auto flex w-5/6 max-w-limit flex-col gap-8 md:gap-10">
+          <h3 className="whitespace-nowrap text-6xl font-bold tracking-tight text-white md:text-8xl lg:text-9xl">
+            Selected Work
           </h3>
 
           <Suspense fallback={<LoadingIcon isDark={true} />}>
@@ -116,10 +119,13 @@ export default async function Home() {
       </div>
 
       {/* Tech stack */}
-      <div className="py-12 md:py-16 lg:py-20">
-        <section className="mx-auto flex w-[85%] max-w-limit flex-col gap-8 md:gap-10">
-          <h3 className="text-5xl font-bold leading-tight tracking-tight md:text-[5rem] md:leading-tight lg:text-[7rem] lg:leading-tight">
-            Tech stack
+      {/* background-image: linear-gradient(to top, #5f72bd 0%, #9b23ea 100%); */}
+
+      <div className="bg-stone-50 py-12 md:py-16 lg:py-20">
+        {/* <div className="bg-gradient-to-r from-[#5f72bd] to-[#9b23ea] py-12 text-white md:py-16 lg:py-20"> */}
+        <section className="mx-auto flex w-5/6 max-w-limit flex-col gap-8 md:gap-10">
+          <h3 className="whitespace-nowrap text-6xl font-bold tracking-tight md:text-8xl lg:text-9xl">
+            Tech Stack
           </h3>
 
           <Suspense fallback={<LoadingIcon />}>
@@ -128,12 +134,13 @@ export default async function Home() {
         </section>
       </div>
 
-      {/* Awards stack */}
+      {/* Awards */}
 
-      <div className="bg-gradient-to-r from-[#8fd3f4] to-[#84fab0] py-12 md:py-16 lg:py-20">
-        <section className="mx-auto flex w-[85%] max-w-limit flex-col gap-8 md:gap-10">
-          <h3 className="text-5xl font-bold leading-tight tracking-tight md:text-[5rem] md:leading-tight lg:text-[7rem] lg:leading-tight">
-            Awards
+      <div className="rounded-extra bg-gradient-to-r from-[#8fd3f4] to-[#84fab0] py-12 md:py-16 lg:py-20">
+        {/* <div className="py-12 md:py-16 lg:py-20"> */}
+        <section className="mx-auto flex w-5/6 max-w-limit flex-col gap-8 md:gap-10">
+          <h3 className="whitespace-nowrap text-6xl font-bold tracking-tight md:text-8xl lg:text-9xl">
+            Top Awards
           </h3>
 
           <Suspense fallback={<LoadingIcon />}>

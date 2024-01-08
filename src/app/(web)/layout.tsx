@@ -9,7 +9,7 @@ export default function HomeLayout({ children }: { children: ReactNode }) {
       <div className="min-h-screen w-full pt-7">
         {/* max-w-limit mx-auto px-4 md:px-8 lg:px-16 */}
         <Header />
-        <div className="mt-10 md:mt-14 lg:mt-16">{children}</div>
+        <div className="mt-12 md:mt-16 lg:mt-20">{children}</div>
         <Footer />
       </div>
     </>

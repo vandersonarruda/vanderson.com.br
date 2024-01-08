@@ -1,9 +1,6 @@
 interface Conquer {
-  year: string
   position: string
-  category: string
-  client: string
-  project: string
+  quantity: number
 }
 
 export interface Awards {

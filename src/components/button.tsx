@@ -46,7 +46,7 @@ export function Button({ title, link, iconName, size }: ButtonProps) {
           </span>
         </div>
       </div>
-      <div className="absolute left-[50%] top-[50%] z-10 h-1 w-1 -translate-x-[50%] -translate-y-[50%] scale-100 rounded-full bg-blue-800 opacity-0 transition-all duration-200 ease-in-out group-hover:h-full group-hover:w-full group-hover:opacity-100 " />
+      <div className="absolute left-[50%] top-[50%] z-10 h-1 w-1 -translate-x-[50%] -translate-y-[50%] scale-100 rounded-full bg-zinc-900 opacity-0 transition-all duration-200 ease-in-out group-hover:h-full group-hover:w-full group-hover:opacity-100 " />
     </button>
   )
 }
