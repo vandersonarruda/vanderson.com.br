@@ -4,14 +4,10 @@ import { ReactNode } from 'react'
 
 export default function HomeLayout({ children }: { children: ReactNode }) {
   return (
-    <>
-      {/* <div className="max-w-limit mx-auto min-h-screen w-full px-2 py-7 md:px-8 lg:px-16"> */}
-      <div className="min-h-screen w-full pt-7">
-        {/* max-w-limit mx-auto px-4 md:px-8 lg:px-16 */}
-        <Header />
-        <div className="mt-12 md:mt-16 lg:mt-20">{children}</div>
-        <Footer />
-      </div>
-    </>
+    <div className="mx-auto min-h-screen w-full max-w-limit pt-6">
+      <Header />
+      <div className="mt-16 md:mt-20 lg:mt-24">{children}</div>
+      <Footer />
+    </div>
   )
 }
