@@ -9,18 +9,15 @@ import StackList from '@/components/stack-list'
 import AwardsList from '@/components/awards-list'
 
 // TODO:
-// - remover Promise
-// - create loading
-// - usar tag suspense no portfolio
-// - usar o intercepting routes
-// - revisar texto do header e no metatag
-// - trocar a imagem do header com link do S3
-// - separar projects em um componente separado
-// - 404 page
-// - remover o no-store para o revalidate na página de projetos, pode subir o tempo
-// - implementar o skeleton nas imagens
-// - remover Promise da API do slug (project)
-// - icon e link no mouse
+// - Remove 'Promise'
+// - Create a loading indicator for the home page
+// - Use 'Route Interception'
+// - Review and revise text in the header and meta tags
+// - Create a 404 error page
+// - Replace 'no-store' with 'revalidate' on the projects page, consider increasing the revalidation time
+// - Implement skeleton screens for images
+// - Remove 'Promise' from the slug API (project)
+// - Add icons and links for mouse-over effects
 
 export default async function Home() {
   // await new Promise((resolve) => setTimeout(resolve, 10000))

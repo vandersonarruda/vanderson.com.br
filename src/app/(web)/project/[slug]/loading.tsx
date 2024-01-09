@@ -2,7 +2,7 @@ import { Skeleton } from '@/components/skeleton'
 
 export default function ProjectLoading() {
   return (
-    <div className="max-w-limit mx-auto px-4 md:px-16 lg:px-16">
+    <div className="mx-auto max-w-limit px-4 md:px-16 lg:px-16">
       <div className="mx-8 md:mx-20 lg:mx-36">
         <h2 className="text-xl font-normal leading-normal md:text-2xl md:leading-normal lg:text-3xl lg:leading-tight">
           <Skeleton className="h-10 w-52" />

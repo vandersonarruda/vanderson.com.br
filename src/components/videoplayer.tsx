@@ -26,30 +26,7 @@ export default function VideoPlayer({ src }: VideoPlayerProps) {
         height="100%"
         url={src}
         controls={true}
-        config={
-          {
-            // vimeo: {
-            //   // https://developer.vimeo.com/player/sdk/embed
-            //   playerOptions: {
-            //     autoplay: false,
-            //     loop: false,
-            //     muted: false,
-            //     controls: true,
-            //     playsinline: false,
-            //     responsive: true,
-            //     background: false,
-            //     portrait: true,
-            //     title: false,
-            //     byline: false,
-            //     speed: false,
-            //     transparent: true,
-            //     quality: 'auto',
-            //     width: '100%',
-            //     height: '100%',
-            //   },
-            // },
-          }
-        }
+        config={{}}
       />
       <source src={src} type="video/mp4" />
     </div>
