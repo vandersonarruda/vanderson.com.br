@@ -1,12 +1,11 @@
-import Image from 'next/image'
-import Link from 'next/link'
-import { Suspense } from 'react'
-import { Button } from '@/components/button'
-import { LoadingIcon } from '@/components/loading'
-import { shimmer, toBase64 } from '@/utils/placeholder-shimmer'
-import ProjectList from '@/components/project-list'
-import StackList from '@/components/stack-list'
 import AwardsList from '@/components/awards-list'
+import { Button } from '@/components/button'
+import { HomeCover } from '@/components/home-cover'
+import { LoadingIcon } from '@/components/loading'
+import ProjectList from '@/components/project-list'
+import { Projects } from '@/components/projects'
+import StackList from '@/components/stack-list'
+import { Suspense } from 'react'
 
 // TODO:
 // - Remove 'Promise'
@@ -19,13 +18,13 @@ import AwardsList from '@/components/awards-list'
 // - Remove 'Promise' from the slug API (project)
 // - Add icons and links for mouse-over effects
 
-export default async function Home() {
+export default function Home() {
   // await new Promise((resolve) => setTimeout(resolve, 10000))
 
   return (
-    <div className="flex flex-col gap-12 overflow-hidden md:gap-14 lg:gap-24">
+    <div className="flex flex-col gap-12 overflow-hidden pt-6 md:gap-14 md:pt-12 lg:gap-24 lg:pt-16">
       <section className="flex flex-col items-center">
-        <div className="flex w-5/6 flex-col gap-4 md:w-3/4 md:gap-6 lg:gap-10 xl:w-3/4">
+        <div className="flex w-5/6 flex-col gap-4 md:w-3/4 md:gap-8 lg:gap-12 xl:w-3/4">
           <div className="w-fit">
             <h1 className="text-6xl font-bold tracking-tight md:text-8xl lg:text-9xl">
               <p>👋 Hey, I&apos;m</p>
@@ -41,29 +40,7 @@ export default async function Home() {
           </h2>
         </div>
 
-        {/* Cover */}
-        <div className="mx-auto mt-8 w-11/12 md:mt-12 lg:mt-16">
-          <Link
-            href="/project/pirelli-christs-view"
-            className="flex w-full flex-col items-center overflow-hidden rounded-2xl md:rounded-medium lg:rounded-extra"
-          >
-            <Image
-              src={`${process.env.NEXT_PUBLIC_S3_BASE_URL}/vanderson-cover.jpg`}
-              width={1475}
-              height={680}
-              quality={100}
-              sizes="100vw"
-              style={{
-                objectFit: 'cover',
-              }}
-              placeholder={`data:image/svg+xml;base64,${toBase64(
-                shimmer(700, 475),
-              )}`}
-              alt="Cover with me on the head of Christ Redeemer"
-              className="h-auto w-full object-cover align-middle"
-            />
-          </Link>
-        </div>
+        <HomeCover />
       </section>
 
       {/* About Me */}
@@ -97,13 +74,7 @@ export default async function Home() {
 
       {/* Selected work */}
       <section className="mx-auto mb-5 w-11/12 p-5">
-        <h3 className="mb-8 whitespace-nowrap text-5xl font-bold tracking-tight md:mb-10 md:text-8xl lg:mb-12 lg:text-9xl">
-          Selected Work
-        </h3>
-
-        <Suspense fallback={<LoadingIcon />}>
-          <ProjectList />
-        </Suspense>
+        <Projects />
       </section>
 
       {/* Tech stack */}
@@ -130,6 +101,5 @@ export default async function Home() {
         </Suspense>
       </section>
     </div>
-    // </div>
   )
 }

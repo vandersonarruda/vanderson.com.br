@@ -9,6 +9,8 @@
     "lint": "eslint . --ext ts,tsx --fix"
   },
   "dependencies": {
+    "@studio-freight/react-lenis": "^0.0.43",
+    "framer-motion": "^10.17.11",
     "lucide-react": "^0.303.0",
     "next": "14.0.4",
     "react": "^18",

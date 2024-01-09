@@ -1,6 +1,7 @@
 import type { Metadata } from 'next'
 import { Inter } from 'next/font/google'
 import './globals.css'
+import SmoothScrolling from '@/components/smooth-scrolling'
 
 const inter = Inter({
   subsets: ['latin'],
@@ -24,7 +25,7 @@ export default function RootLayout({
   return (
     <html lang="en" className={inter.variable}>
       <body className="bg-stone-100 text-stone-950 antialiased">
-        {children}
+        <SmoothScrolling>{children}</SmoothScrolling>
       </body>
     </html>
   )

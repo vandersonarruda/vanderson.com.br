@@ -12,10 +12,10 @@ interface ProjectProps {
 
 async function getProject(slug: string): Promise<Project> {
   const response = await api(`/projects/${slug}`, {
-    cache: 'no-store',
-    // next: {
-    //   revalidate: 60 * 60, // 1 hour
-    // },
+    // cache: 'no-store',
+    next: {
+      revalidate: 60 * 60, // 1 hour
+    },
   })
 
   const project = await response.json()

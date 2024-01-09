@@ -1,22 +1,22 @@
-import { Project } from '@/data/types/project'
 import { toBase64, shimmer } from '@/utils/placeholder-shimmer'
 import Image from 'next/image'
 import Link from 'next/link'
-import process from 'process'
 
 interface ProjectItemProps {
-  data: Project
+  cover: string
+  slug: string
+  title: string
 }
 
-export function ProjectItem({ data }: ProjectItemProps) {
+export function ProjectItem({ cover, slug, title }: ProjectItemProps) {
   return (
-    <div className="group flex flex-col">
+    <div className="overflow-hidden rounded-2xl">
       <Link
-        href={`/project/${data.slug}`}
-        className="items-center justify-center overflow-hidden rounded-2xl transition-all duration-300 ease-in-out group-hover:scale-95"
+        href={`/project/${slug}`}
+        className="items-center justify-center transition-all duration-300 ease-in-out group-hover:scale-95"
       >
         <Image
-          src={`${process.env.NEXT_PUBLIC_S3_BASE_URL}/projects/${data.slug}/${data.cover}`}
+          src={`${process.env.NEXT_PUBLIC_S3_BASE_URL}/projects/${slug}/${cover}`}
           width={800}
           height={600}
           quality={80}
@@ -26,7 +26,7 @@ export function ProjectItem({ data }: ProjectItemProps) {
           placeholder={`data:image/svg+xml;base64,${toBase64(
             shimmer(700, 475, false),
           )}`}
-          alt={`Cover image about to ${data.title} project`}
+          alt={`Thumbnail about the project ${title}`}
           className="h-48 w-full object-cover transition-all duration-300 ease-in-out group-hover:scale-[115%] group-hover:brightness-125 md:h-60"
         />
       </Link>
