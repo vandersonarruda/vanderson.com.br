@@ -10,13 +10,17 @@ interface ProjectProps {
   }
 }
 
-async function getProject(slug: string): Promise<Project> {
+async function getProject(slug = ''): Promise<Project> {
   const response = await api(`/projects/${slug}`, {
     // cache: 'no-store',
     next: {
       revalidate: 60 * 60, // 1 hour
     },
   })
+
+  if (!response.ok) {
+    throw new Error('Project not found')
+  }
 
   const project = await response.json()
 

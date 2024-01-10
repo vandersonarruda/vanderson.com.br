@@ -1,5 +1,6 @@
 import data from '../data.json'
 
 export async function GET() {
-  return Response.json(data.projects)
+  return new Response(JSON.stringify(data.projects))
+  // return Response.json(data.projects)
 }
