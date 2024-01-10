@@ -1,8 +1,6 @@
-import { Suspense } from 'react'
-import { LoadingIcon } from './loading'
-import ProjectList from './project-list'
 import { api } from '@/data/api'
 import { Project } from '@/data/types/project'
+import { ProjectItem } from './project-item'
 
 async function getFeaturedProjects(): Promise<Project[]> {
   const response = await api('/projects', {
@@ -16,18 +14,14 @@ async function getFeaturedProjects(): Promise<Project[]> {
   return projects
 }
 
-export async function Projects() {
+export default async function Projects() {
   const projects = await getFeaturedProjects()
 
   return (
-    <>
-      <h3 className="mb-8 whitespace-nowrap text-5xl font-bold tracking-tight md:mb-10 md:text-8xl lg:mb-12 lg:text-9xl">
-        Selected Work
-      </h3>
-
-      <Suspense fallback={<LoadingIcon />}>
-        <ProjectList data={projects} />
-      </Suspense>
-    </>
+    <div className="mx-auto grid w-[100%] grid-cols-1 gap-5 md:grid-cols-2 lg:grid-cols-3">
+      {projects.map((project) => {
+        return <ProjectItem key={project.id} data={project} />
+      })}
+    </div>
   )
 }

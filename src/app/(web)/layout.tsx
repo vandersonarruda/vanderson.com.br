@@ -4,7 +4,7 @@ import { ReactNode } from 'react'
 
 export default function HomeLayout({ children }: { children: ReactNode }) {
   return (
-    <div className="mx-auto min-h-screen w-full max-w-limit pt-6">
+    <div className="mx-auto min-h-screen w-full max-w-limit rounded-2xl bg-stone-100 pt-6">
       <Header />
       <div className="mt-16 md:mt-20 lg:mt-24">{children}</div>
       <Footer />

@@ -9,6 +9,7 @@
     "lint": "eslint . --ext ts,tsx --fix"
   },
   "dependencies": {
+    "@motionone/utils": "^10.17.0",
     "@studio-freight/react-lenis": "^0.0.43",
     "framer-motion": "^10.17.11",
     "lucide-react": "^0.303.0",

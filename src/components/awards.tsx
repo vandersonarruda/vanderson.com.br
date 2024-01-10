@@ -9,11 +9,11 @@ async function getAwards(): Promise<Awards[]> {
   return awards
 }
 
-export default async function AwardsList() {
+export default async function Awards() {
   const awards = await getAwards()
 
   return (
-    <div className="mx-auto flex h-full w-full flex-col rounded-3xl border-b-[1px] bg-white/80 px-5">
+    <div className="mx-auto flex h-full w-full flex-col rounded-3xl border-b-[1px] bg-loblolly-200/50 px-5">
       {awards.map((item) => {
         const conquerQuantity = item.conquers.reduce((acc, conquer) => {
           return acc + conquer.quantity
@@ -27,12 +27,12 @@ export default async function AwardsList() {
             >
               <div className="flex w-full flex-row items-center md:h-full md:w-full">
                 <div className="w-10 md:w-12">
-                  <p className="text-lg font-semibold text-zinc-800 lg:text-xl">
+                  <p className="text-lg font-semibold text-loblolly-500 lg:text-xl">
                     {String(conquerQuantity).padStart(2, '0')}x
                   </p>
                 </div>
-                {/* <p className="w-full bg-gradient-to-r from-[#5f72bd] to-[#9b23ea] bg-clip-text text-3xl font-bold text-transparent lg:text-4xl"> */}
-                <p className="w-full text-3xl font-bold lg:text-4xl">
+                {/* <p className="w-full bg-gradient-to-r from-[#007adf] to-[#00ecbc] bg-clip-text text-3xl font-bold text-transparent lg:text-4xl"> */}
+                <p className="w-full text-3xl font-bold text-stone-800 lg:text-4xl ">
                   {item.title}
                 </p>
               </div>

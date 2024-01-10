@@ -9,7 +9,7 @@ async function getStacks(): Promise<Stack[]> {
   return stacks
 }
 
-export default async function StackList() {
+export default async function Stacks() {
   const stacks = await getStacks()
 
   return (
@@ -17,23 +17,23 @@ export default async function StackList() {
       {stacks.map((item, index) => (
         <div
           key={index}
-          className="flex h-full w-full flex-col rounded-3xl bg-loblolly-200 p-5 py-6"
+          className="flex h-full w-full flex-col rounded-3xl bg-loblolly-200/50 p-5 py-6"
         >
           <div className="w-fit">
-            <p className="tracking-none text-sm font-semibold text-loblolly-500 lg:text-base">
+            {/* <p className="tracking-none text-sm font-medium text-loblolly-500 md:text-lg lg:text-xl">
               ({String(Number(index + 1)).padStart(2, '0')})
-            </p>
+            </p> */}
 
-            <h2 className="mt-2 flex text-xl font-bold tracking-tight text-loblolly-950 md:text-3xl lg:text-5xl">
+            <h2 className="mt-2 flex text-xl font-bold tracking-tight text-loblolly-700 md:text-3xl lg:text-5xl">
               {item.title}
             </h2>
 
-            <div className="text-md lg:text-bg mt-5 text-base font-normal leading-normal text-loblolly-800 md:text-xl md:leading-snug lg:leading-relaxed">
+            <div className="mt-4 flex flex-row flex-wrap gap-2 text-sm font-semibold text-loblolly-800 md:text-base lg:text-lg">
               {item.content.map((content, index) => (
                 <>
-                  <span key={index}>
-                    {index !== 0 && <span>, </span>} {content}
-                  </span>
+                  <p className="rounded-full bg-white px-4 py-1" key={index}>
+                    {content}
+                  </p>
                 </>
               ))}
             </div>

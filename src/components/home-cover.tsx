@@ -22,7 +22,9 @@ export function HomeCover() {
       transition={{
         opacity: { ease: 'linear' },
         layout: { duration: 0.3 },
+        delay: 1,
       }}
+      animate={{ opacity: 1 }}
       ref={container}
       className="mx-auto mt-12 w-11/12 overflow-hidden rounded-2xl md:mt-16 md:rounded-medium lg:mt-20 lg:rounded-extra"
     >

@@ -412,10 +412,10 @@
     {
       "title": "Frontend",
       "content": [
-        "JavaScript",
         "TypeScript",
         "React",
         "React Native",
+        "JavaScript",
         "Next.js",
         "Vite",
         "Vue",
@@ -454,11 +454,9 @@
       "title": "Creative Coding",
       "content": [
         "Arduino",
-        "ESP32 Espressif",
+        "ESP32",
         "Raspberry Pi",
         "Jetson Nano",
-        "Adafruit Feather",
-        "Micropython",
         "3D Printing",
         "Fusion 360",
         "Processing",
