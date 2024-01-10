@@ -71,9 +71,9 @@ export default async function Home() {
           — featured work
         </h3>
 
-        <Suspense fallback={<LoadingIcon />}>
+        {/* <Suspense fallback={<LoadingIcon />}>
           <Projects />
-        </Suspense>
+        </Suspense> */}
       </section>
 
       {/* Tech stack */}
@@ -82,9 +82,9 @@ export default async function Home() {
           — tech stack
         </h3>
 
-        <Suspense fallback={<LoadingIcon />}>
+        {/* <Suspense fallback={<LoadingIcon />}>
           <Stacks />
-        </Suspense>
+        </Suspense> */}
       </section>
 
       {/* Marquee */}
@@ -96,9 +96,9 @@ export default async function Home() {
           — top awards
         </h3>
 
-        <Suspense fallback={<LoadingIcon />}>
+        {/* <Suspense fallback={<LoadingIcon />}>
           <Awards />
-        </Suspense>
+        </Suspense> */}
       </section>
     </div>
   )
