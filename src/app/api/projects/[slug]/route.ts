@@ -5,15 +5,23 @@ export async function GET(
   _: Request,
   { params }: { params: { slug: string } },
 ) {
-  // await new Promise((resolve) => setTimeout(resolve, 3000))
+  try {
+    const slug = z.string().parse(params.slug)
 
-  const slug = z.string().parse(params.slug)
+    const project = data.projects.find((p) => p.slug === slug)
 
-  const projects = data.projects.find((project) => project.slug === slug)
+    if (!project) {
+      return new Response(JSON.stringify({ message: 'Project not found' }), {
+        status: 400,
+      })
+    }
 
-  if (!projects) {
-    return Response.json({ message: 'Project not found' }, { status: 400 })
+    return new Response(JSON.stringify(project))
+  } catch (error) {
+    const message = error instanceof Error ? error.message : 'Unknown error'
+    return new Response(
+      JSON.stringify({ message: 'Error processing request', error: message }),
+      { status: 500 },
+    )
   }
-
-  return Response.json(projects)
 }
