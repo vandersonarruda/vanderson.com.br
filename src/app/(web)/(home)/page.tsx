@@ -8,14 +8,10 @@ import Awards from '@/components/awards'
 import { ParallaxText } from '@/components/parallax-text'
 
 // TODO:
-// - Remove 'Promise'
-// - Create a loading indicator for the home page
 // - Use 'Route Interception'
 // - Review and revise text in the header and meta tags
 // - Create a 404 error page
 // - Replace 'no-store' with 'revalidate' on the projects page, consider increasing the revalidation time
-// - Implement skeleton screens for images
-// - Remove 'Promise' from the slug API (project)
 // - Add icons and links for mouse-over effects
 
 export default async function Home() {
@@ -32,8 +28,12 @@ export default async function Home() {
 
           <h2 className="text-xl font-medium leading-snug tracking-tight md:text-4xl md:leading-snug lg:text-5xl lg:leading-snug">
             <p>
-              — a <span className="underline">software engineer</span> skilled
-              on web/mobile & IoT, working remotely from São Paulo, Brazil.
+              — a{' '}
+              <span className="rounded-md bg-mindaro-300">
+                software engineer
+              </span>{' '}
+              skilled on web/mobile & IoT, working remotely from São Paulo,
+              Brazil.
             </p>
           </h2>
         </div>
@@ -84,7 +84,7 @@ export default async function Home() {
       {/* Tech stack */}
       <section className="mx-auto mb-5 w-11/12 p-5">
         {/* <h3 className="mb-8 whitespace-nowrap bg-gradient-to-r from-[#5f72bd] to-[#9b23ea] bg-clip-text text-5xl font-bold tracking-tight text-transparent md:mb-10 md:text-8xl lg:mb-12 lg:text-9xl"> */}
-        <h3 className="mb-8 whitespace-nowrap text-5xl font-bold tracking-tight text-zinc-800 md:mb-10 md:text-8xl lg:mb-12 lg:text-9xl">
+        <h3 className="mb-8 whitespace-nowrap text-5xl font-bold tracking-tight md:mb-10 md:text-8xl lg:mb-12 lg:text-9xl">
           Tech Stack
         </h3>
 
@@ -97,13 +97,13 @@ export default async function Home() {
       <section className="py-4 text-black md:py-6 lg:py-8">
         <ParallaxText
           baseVelocity={-2}
-          className="rotate-[9deg] scale-110 bg-yellow-600 py-4 opacity-80 blur-sm"
+          className="rotate-[9deg] scale-110 bg-yellow-600 py-6 opacity-80 blur-sm"
         >
           Software Engineer -
         </ParallaxText>
         <ParallaxText
           baseVelocity={2}
-          className="-mt-16 -rotate-[4deg] scale-110 bg-yellow-400 py-4 md:-mt-24 lg:-mt-28"
+          className="-mt-16 -rotate-[4deg] scale-110 bg-yellow-400 py-6 md:-mt-24 lg:-mt-28"
         >
           Software Engineer -
         </ParallaxText>
@@ -112,7 +112,7 @@ export default async function Home() {
       {/* Awards */}
       <section className="mx-auto mb-5 w-11/12 p-5">
         {/* <h3 className="mb-8 whitespace-nowrap bg-gradient-to-r from-[#44ace0] to-[#61c686] bg-clip-text text-5xl font-bold tracking-tight text-transparent md:mb-10 md:text-8xl lg:mb-12 lg:text-9xl"> */}
-        <h3 className="mb-8 whitespace-nowrap text-5xl font-bold tracking-tight text-zinc-800 md:mb-10 md:text-8xl lg:mb-12 lg:text-9xl">
+        <h3 className="mb-8 whitespace-nowrap text-5xl font-bold tracking-tight md:mb-10 md:text-8xl lg:mb-12 lg:text-9xl">
           Top Awards
         </h3>
 

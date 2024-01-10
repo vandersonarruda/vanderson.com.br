@@ -32,17 +32,14 @@ export default async function Awards() {
                   </p>
                 </div>
                 {/* <p className="w-full bg-gradient-to-r from-[#007adf] to-[#00ecbc] bg-clip-text text-3xl font-bold text-transparent lg:text-4xl"> */}
-                <p className="w-full text-3xl font-bold text-stone-800 lg:text-4xl ">
+                <p className="w-full text-3xl font-bold lg:text-4xl ">
                   {item.title}
                 </p>
               </div>
 
               <div className="flex w-full flex-row items-center pl-11 md:h-full md:justify-end md:pl-0">
                 {item.conquers.map((conquer, index) => (
-                  <div
-                    key={index}
-                    className="flex flex-row items-center text-zinc-800"
-                  >
+                  <div key={index} className="flex flex-row items-center">
                     {index !== 0 && <span className="px-1">/</span>}
                     <span className="text-sm font-medium leading-none md:text-base lg:text-lg">
                       {conquer.quantity}x {conquer.position}
