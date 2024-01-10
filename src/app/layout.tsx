@@ -26,10 +26,8 @@ export default function RootLayout({
   return (
     <html lang="en" className={inter.variable}>
       <body className="bg-white text-zinc-950 antialiased">
-        <SmoothScrolling>
-          {children}
-          <Analytics />
-        </SmoothScrolling>
+        <SmoothScrolling>{children}</SmoothScrolling>
+        <Analytics />
       </body>
     </html>
   )
