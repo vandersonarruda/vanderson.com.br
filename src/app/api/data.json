@@ -1,580 +1,582 @@
 {
-  "projects": [
-    {
-      "id": "id_1",
-      "title": "Puzzle Boxes Glass Onion",
-      "client": "Netflix",
-      "year": "2022",
-      "description": "For Netflix's release of 'Glass Onion: A Knives Out Mystery', we created 12 Puzzle Boxes inspired by the film. These varied in complexity and were sent to influencers, press, fans, and the director across the US and Europe. The live-streamed puzzle-solving sessions attracted over 30 million viewers, adding an interactive element to the film's launch.",
-      "role": "Alongside leading the makers team, I developed firmware code and implemented mobile integration for remote control of the puzzle boxes.",
-      "slug": "netflix-glass-onion",
-      "cover": "cover.png",
-      "video": [
-        "https://www.youtube.com/watch?v=5D0aRw2O_I8"
-      ],
-      "images": [
-        "35c3ef42-f1ac-4fb3-bb51-599d705485ca.jpg",
-        "335ba1bc-ec49-4efd-ad10-81c2e3d67b96.jpg",
-        "4436f192-bb09-454e-838d-5c940c0adce3.jpg",
-        "cd9ba505-9ca6-450a-bf2b-e99d2bba3d7e.gif"
-      ],
-      "featured": true
-    },
-    {
-      "id": "id_2",
-      "title": "Terminator MModel 101",
-      "client": "MediaMonks",
-      "year": "2020",
-      "description": "As an internal challenge, our team in São Paulo developed the Terminator MModel 101, a robotic head modeled after the T-800. This fully functional prototype is designed with advanced face tracking technology, allowing it to replicate human movements across all axes, including mouth movements, through facial-motion capture software. Its iconic red-light eyes enhance its cyborg appearance.",
-      "role": "I led the makers team and was responsible for translating Unity code into the firmware, ensuring seamless integration and functionality.",
-      "slug": "terminator-mmodel-101",
-      "cover": "cover.png",
-      "video": [
-        "https://www.youtube.com/watch?v=n9KGUbV9SKg"
-      ],
-      "images": [
-        "3d653223-dca3-4704-9e4c-d050f52592d4.jpg",
-        "7da9989a-ec7e-40e5-bec0-aa8aceceb3ab.jpg",
-        "8d565348-1576-4408-a2ff-851bcae542dc.gif"
-      ],
-      "featured": true
-    },
-    {
-      "id": "id_3",
-      "title": "Zinger 1 Space Mission",
-      "client": "KFC",
-      "year": "2017",
-      "description": "To launch KFC's Zinger in the U.S., we collaborated with Wieden+Kennedy and WorldView, sending the sandwich into space. The Zinger 01, in a robotic satellite, ascended to the stratosphere, was live-streamed on kfcin.space and Facebook, featuring an interactive timeline and a WebGL rocket featuring a selfie stick, a flag-waving arm, and a recording of the colonel on a gold cassette tape, providing a unique blend of science, technology, and fast food promotion.",
-      "role": "I was responsible for technical leadership, coordinated with suppliers, and developed firmware.",
-      "slug": "kfc-zinger",
-      "cover": "cover.png",
-      "video": [
-        "https://www.youtube.com/watch?v=fTY6u5O2wls",
-        "https://www.youtube.com/watch?v=beY247nbwNc"
-      ],
-      "images": [
-        "927faf30-d75b-4332-ab8e-ffe2515fb37c.jpg",
-        "cf29bd16-6c52-4445-92de-d8b48ad71cf7.gif",
-        "f171b427-4be2-4d7f-9cf5-7d1d46473f21.jpeg",
-        "ff93c03f-c017-4fe2-aff6-8a9a84eb8d71.gif"
-      ],
-      "featured": true
-    },
-    {
-      "id": "id_4",
-      "title": "S.Q.U.I.D.",
-      "client": "Old Spice",
-      "year": "2017",
-      "description": "The Old Spice SQUID project featured a robotic kraken controlled by online users on Twitch. We built a robotic kraken, an animatronic monster enabled eight random online users to control it. Over three days, participants navigated it through 12 live-streamed quests with real-world challenges.",
-      "role": "I led the maker team and programmed the motor movements of the robotic kraken, contributing to the interactive Twitch experience.",
-      "slug": "old-spice-squid",
-      "cover": "cover.png",
-      "video": [
-        "https://www.youtube.com/watch?v=HkReyJF_29E",
-        "https://www.youtube.com/watch?v=MUqvyWu7NR0"
-      ],
-      "images": [
-        "5487149a-e4d1-4cfa-8014-679ac1187678.png",
-        "825e44b9-608b-4d75-a425-b14887a45233.png",
-        "aa0991ae-78fb-4165-a371-63649e646061.gif"
-      ],
-      "featured": true
-    },
-    {
-      "id": "id_22",
-      "title": "Galaxy Surfboard",
-      "client": "Samsung",
-      "year": "2016",
-      "description": "With Leo Burnett, Gabriel Medina, and Johnny Cabianca, we developed the Samsung Galaxy Surfboard. It connects surfers on waves, integrating a Samsung S7 for real-time data on a waterproof LED display, showing weather, waves, and fan tweets, merging surfing with advanced tech.",
-      "role": "",
-      "slug": "samsung-galaxy-surfboard",
-      "cover": "cover.png",
-      "video": [
-        "https://youtu.be/vOD48POMjNg"
-      ],
-      "images": [
-        "55911f1f-6e48-4271-bd83-03dc4f55a205.jpeg",
-        "6e83e771-15c1-4339-aefd-28deef09ca48.png",
-        "d34da726-0a35-412b-b437-b3986f02b001.png",
-        "f7ea5f4f-3b51-4f48-aa39-12cea13a86d3.jpeg"
-      ],
-      "featured": true
-    },
-    {
-      "id": "id_5",
-      "title": "Christ’s View",
-      "client": "Pirelli",
-      "year": "2014",
-      "description": "In Pirelli's restoration of Christ the Redeemer, with Leo Burnett, we installed high-res cameras for a 360-degree panorama of Rio, accessible via a mobile app. Visitors could take and share photos with the cityscape background, simulating the statue's viewpoint.",
-      "role": "",
-      "slug": "pirelli-christs-view",
-      "cover": "cover.jpeg",
-      "video": [
-        "https://youtu.be/bgaYUrOmCXk"
-      ],
-      "images": [
-        "0af32c54-82e4-4a11-a4b5-80d61724ea2c.jpeg",
-        "225fbb9e-aa5b-48f5-aea8-eb81ed9a16c0.jpeg",
-        "cb22b89f-230c-409b-b247-8cf22a226556.jpeg"
-      ],
-      "featured": true
-    },
-    {
-      "id": "id_6",
-      "title": "Cooltopia NFT NYC",
-      "client": "Cool Cats",
-      "year": "2022",
-      "description": "At NFT.NYC 2022, we partnered with Cool Cats to transform Cooltopia into a physical experience in NYC. The setup included a plaza, garden, café, and themed zones - Air, Fire, Grass, Water - with interactive elements like a pirate ship and videogame challenges.",
-      "role": "I was the Tech Lead and developed the firmware for devices interacting with NFC bracelets to trigger animatronics.",
-      "slug": "cooltopia-nft",
-      "cover": "cover.png",
-      "video": [
-        "https://www.youtube.com/watch?v=mODOrCOF2Pc"
-      ],
-      "images": [
-        "4f1ff2aa-b4e4-43bb-8fdb-49cf49a295a0.jpg",
-        "6229c29f-b0fc-4cdf-9b5e-6f4a0d648a15.jpg",
-        "a7845ca1-e385-4ecb-9448-93f37aff0af2.gif"
-      ],
-      "featured": true
-    },
-    {
-      "id": "id_7",
-      "title": "Amarok Arcade",
-      "client": "Volkswagen",
-      "year": "2017",
-      "description": "To promote Volkswagen's new Amarok V6 truck, we engineered a web-controlled claw machine. This custom-built, meter-wide mechanical claw was showcased in an industrial shed beside the Amarok V6. Through a special campaign website, presale purchasers of the truck could remotely operate the claw to pick up stone blocks around the vehicle, each symbolizing additional features they could win for their new Amarok.",
-      "role": "I was responsible for technical leadership",
-      "slug": "volkswagen-amarok-arcade",
-      "cover": "cover.jpeg",
-      "video": [
-        "https://www.youtube.com/watch?v=2RiJ0MauL2Q"
-      ],
-      "images": [
-        "7db2b18d-a048-475c-a4ca-763e3295575a.jpeg",
-        "4721e21b-f1d1-4a9e-a6ca-ad1aa7873d1d.jpeg",
-        "9915b38c-2f0a-43c1-b7ee-0e82e4c65145.png"
-      ],
-      "featured": true
-    },
-    {
-      "id": "id_8",
-      "title": "Fashion Like",
-      "client": "C&A",
-      "year": "2012",
-      "description": "In a venture with DM9DBB for C&A, we merged in-store shopping with social media, letting customers 'Like' items online, displayed on in-store hangers. This offered a mix of social validation and digital engagement, giving shoppers a community-backed view of fashion popularity.",
-      "role": "",
-      "slug": "cea-fashion-like",
-      "cover": "cover.jpeg",
-      "video": [
-        "https://youtu.be/kPKKg4SIWDU"
-      ],
-      "images": [
-        "ebf01168-84d7-42b5-957d-2d349443118f.jpg",
-        "8c48b37c-09ec-4ea1-b8a8-7bf910c82862.jpeg",
-        "c26bf76e-22dd-41c4-ab0d-d835db0dc46e.jpeg"
-      ],
-      "featured": true
-    },
-    {
-      "id": "id_9",
-      "title": "Impossible Mascots",
-      "client": "Mastercard",
-      "year": "2019",
-      "description": "Partnering with WMcCann for Mastercard, we created telepresence robots for young cancer patients, enabling them to virtually join football idols on the pitch with displays, cameras, and custom streaming for an uninterrupted and memorable experience.",
-      "role": "I was responsible for technical leadership",
-      "slug": "mastercard-impossible-mascots",
-      "cover": "cover.jpeg",
-      "video": [
-        "https://www.youtube.com/watch?v=XbQ2W7B619g"
-      ],
-      "images": [
-        "157c2e41-fb1c-4a68-b2d8-782ec3811261.jpeg",
-        "48196c08-25b1-4702-922c-ad28a0f6ea48.png",
-        "9409ca35-0859-41ba-a2c4-357becc16c3e.gif",
-        "9765a05c-f7d2-4498-8a0d-7d1fc3dbf52f.png",
-        "e6a553f6-e6f6-4ed4-8650-6dc94408063b.gif"
-      ],
-      "featured": true
-    },
-    {
-      "id": "id_10",
-      "title": "Microphone of Truth",
-      "client": "National Geographic",
-      "year": "2018",
-      "description": "For National Geographic's Latin American show, we developed the 'Microphone of Truth' to combat fake news. This tech analyzes voice and heart rate for truthfulness, lighting up green, red, or yellow based on the response's veracity, offering an interactive approach to public discourse.",
-      "role": "",
-      "slug": "natgeo-microphone-truth",
-      "cover": "cover.jpg",
-      "video": [
-        "https://youtu.be/bstkEUL_jHo"
-      ],
-      "images": [
-        "7e31507b-dd6d-45db-a024-5bc949ead76f.gif",
-        "f8b2fbf6-c4a4-44d5-b574-2c83b3cd013a.gif"
-      ],
-      "featured": true
-    },
-    {
-      "id": "id_11",
-      "title": "The Jack Ryan Training Field",
-      "client": "Amazon Prime Video",
-      "year": "2017",
-      "description": "For Amazon Prime Video's 'The Jack Ryan' series, we created a 4D VR obstacle course at Comic-Con. Participants used Oculus Rifts for tasks like rappelling and zip-lining, with OptiTrack for outdoor movement.",
-      "role": "",
-      "slug": "amazon-jack-ryan-training-field",
-      "cover": "cover.png",
-      "video": [
-        "https://youtu.be/OFhZJqSLmEk"
-      ],
-      "images": [],
-      "featured": true
-    },
-    {
-      "id": "id_12",
-      "title": "Eddie Highway Bobblehead",
-      "client": "Shell",
-      "year": "2017",
-      "description": "Shell commissioned us to create a device for Brazilian highways to detect and map potholes. The Bobble Head, a twist on truck mascots, uses an accelerometer and gyroscope to collect road data and identify potholes. It operates offline, made with 3D printing and durable PU paint.",
-      "role": "",
-      "slug": "shell-eddie-bobblehead",
-      "cover": "cover.jpeg",
-      "video": [
-        "https://youtu.be/DxfmKM2Hpfc"
-      ],
-      "images": [
-        "5605cc96-78fc-41cc-9221-91c8159129b0.jpeg",
-        "8e48b8b3-576a-4a86-842a-0708f0b6216a.jpeg",
-        "dd6a6100-8441-43f4-8009-73526f8a78a3.jpeg"
-      ],
-      "featured": true
-    },
-    {
-      "id": "id_13",
-      "title": "Water Ripples",
-      "client": "Stella Artois",
-      "year": "2018",
-      "description": "For World Water Day, we created a 36-foot kinetic art piece in Grand Central Station, featuring 558 motor-controlled water droplets. Visitors interacted with it, triggering optical fibers and waves of droplets, accompanied by a bespoke 8.1 soundtrack. We designed and executed everything from the virtual installation to the social media integration.",
-      "role": "",
-      "slug": "stella-artois-water-ripples",
-      "cover": "cover.png",
-      "video": [
-        "https://youtu.be/F5IJ8SCwoYI"
-      ],
-      "images": [
-        "44eb1a82-b5b6-4ddb-9482-4920ba23cf28.gif",
-        "e53e2f57-dff1-44ce-926e-84df422ed22c.jpeg",
-        "17a3dd83-6c09-4bb6-b946-3e67b8ca6193.gif",
-        "2207c4a2-5021-4c42-9481-56ccef3a3d39.jpeg"
-      ],
-      "featured": true
-    },
-    {
-      "id": "id_14",
-      "title": "Smart Beats",
-      "client": "Skol",
-      "year": "2017",
-      "description": "For Skol's innovative campaign, we created a limited-edition set of smart speakers, designed in the shape of Skol bottles. These devices, powered by voice recognition technology, function as personal party planners and entertainers. Users can command the speakers to send party invitations, switch music tracks and playlists, and even get genre-specific event recommendations. Additionally, they can book an Uber through the device, receive outfit suggestions based on weather forecasts, and even play interactive games like musical chairs.",
-      "role": "",
-      "slug": "skol-smart-beats",
-      "cover": "cover.jpeg",
-      "video": [
-        "https://youtu.be/uWPmbgAln80"
-      ],
-      "images": [
-        "1470fff4-91dc-4314-8df3-6215180fb69b.jpeg",
-        "e85634e8-0ef9-45c7-9fe0-af026c76000b.gif",
-        "8bd6c2e8-e715-4349-9cb0-898b8e7b1310.jpeg"
-      ],
-      "featured": true
-    },
-    {
-      "id": "id_15",
-      "title": "Mobile Recall",
-      "client": "Google",
-      "year": "2016",
-      "description": "Mobile Recall by Google was an event to show CEOs the effects of 2G on user experience. It featured four experiments: a bike showing website 'weight', VR Pac-Man for search difficulties, an obstacle course for usability, and a Rube Goldberg Machine to highlight performance issues",
-      "role": "",
-      "slug": "google-mobile-recall",
-      "cover": "cover.png",
-      "video": [
-        "https://youtu.be/ZRj9oICvoFQ"
-      ],
-      "images": [
-        "150e5168-0f06-4311-9c68-d8c0110e4d96.jpeg",
-        "4128cfb0-a895-4dd7-b1a7-7bcdd065f950.png",
-        "d7558810-1231-4604-912a-8eee9ed1a424.jpeg",
-        "ec51a783-44ec-43ec-ae7f-b61eecf4b0df.png"
-      ],
-      "featured": true
-    },
-    {
-      "id": "id_16",
-      "title": "AR Demonstration Briefcase",
-      "client": "GE",
-      "year": "2018",
-      "description": "For GE's product pitches, we developed a unique demo-in-a-briefcase, enabling representatives to dynamically showcase GE's solutions at events. This briefcase contains a detailed scale model embedded with electronics, representing the various industries impacted by GE. Accompanied by a tablet, visitors can interact with the model and explore GE's potential impact on their business through augmented reality (AR) animations.",
-      "role": "I was responsible for technical leadership, actively seeking innovative technical solutions.",
-      "slug": "ge-ar-demonstration",
-      "cover": "cover.png",
-      "video": [
-        "https://www.youtube.com/watch?v=06IPAwsoB3A"
-      ],
-      "images": [
-        "37e26f46-4129-4663-abe5-b7e1b22c82e9.jpeg",
-        "be81c520-ff6b-411a-be59-339cac2baa78.jpeg",
-        "b9a4cf4e-55d6-4cbf-a39e-72b5cde677cc.gif",
-        "f33ae832-d575-4345-ba28-6b1cf6921e1d.gif"
-      ],
-      "featured": true
-    },
-    {
-      "id": "id_17",
-      "title": "Mummy Floss Hero",
-      "client": "Colgate",
-      "year": "2017",
-      "description": "For Colgate, we created 'Mummy Floss Hero,' an interactive dental floss dispenser designed as a mummy. It links to devices via Bluetooth, lighting up when floss is pulled and granting access to a mobile game, which guides kids through a mouth environment to promote flossing.",
-      "role": "",
-      "slug": "colgate-mummy floss-hero",
-      "cover": "cover.png",
-      "video": [
-        "https://youtu.be/bFkx0JPhxUc"
-      ],
-      "images": [
-        "61c1a639-50e4-4341-80a1-9f3a615e6ccf.png",
-        "9528f60d-3272-41ae-8e4b-1e7e085b37e9.png",
-        "ebf01168-84d7-42b5-957d-2d349443118f.png",
-        "f2f88415-74cb-47bb-a89d-b76c635981bc.png"
-      ],
-      "featured": true
-    },
-    {
-      "id": "id_18",
-      "title": "Youtube Viewbusters",
-      "client": "Google",
-      "year": "2014",
-      "description": "In collaboration with RGA, we created the YouTube Viewbusters Award, an internet-connected device resembling the YouTube logo, awarded to agencies for top ads. It features a dynamic display showing ad view counts, made with 3D printing and custom software for the micro-controller.",
-      "role": "",
-      "slug": "youtube-viewbusters",
-      "cover": "cover.jpg",
-      "video": [
-        "https://youtu.be/EAaTCsG0BuY"
-      ],
-      "images": [
-        "52fb9318-9481-49c9-9c17-d542fffd9d1b.png",
-        "6cb239c6-594e-442d-a704-6b6f9c85535d.png",
-        "906a80f8-ac00-4fb9-8c59-1088a6277485.jpeg",
-        "ecd69da0-31b0-4373-a6a8-311c0243e6d3.jpeg"
-      ],
-      "featured": true
-    },
-    {
-      "id": "id_19",
-      "title": "Like Ad",
-      "client": "C&A",
-      "year": "2014",
-      "description": "In DM9's innovative campaign for C&A, we created a print ad allowing readers to 'Like' it directly. This blended physical and digital realms using a board with a cell phone chip for Facebook 'Likes', leading to its feature in Contigo magazine (brazilian magazine), pioneering interactive advertising.",
-      "role": "",
-      "slug": "cea-like-ad",
-      "cover": "cover.jpeg",
-      "video": [
-        "https://youtu.be/cZyC70PSKLw"
-      ],
-      "images": [
-        "518bdbf2-39a7-4e96-a4b1-7c036aea0179.jpeg",
-        "602b3c12-33ad-4232-bd10-e307fa4d8549.jpeg",
-        "6f19a534-0760-40de-bcdb-9cec425e7a7d.jpeg"
-      ],
-      "featured": true
-    },
-    {
-      "id": "id_20",
-      "title": "Ford Focus Fastback",
-      "client": "Ford",
-      "year": "2015",
-      "description": "Experience to showcase the new Ford Focus Fastback. Developed JavaScript and WebGL experience",
-      "role": "",
-      "slug": "ford-focus-fastback",
-      "cover": "cover.png",
-      "video": [
-        "https://youtu.be/ZXfmOOWiCaA",
-        "https://youtu.be/y04L_ozcF10",
-        "https://youtu.be/GNb68DKwywQ"
-      ],
-      "images": [
-        "6870a5b1-1955-4027-9de4-c9e80cd18fb8.png",
-        "73c0eb28-fffa-404b-9c06-f6cd6a1a9ef8.png"
-      ],
-      "featured": true
-    }
+  "projects":[
+     {
+        "id":"id_1",
+        "title":"Puzzle Boxes Glass Onion",
+        "client":"Netflix",
+        "year":"2022",
+        "description":"For Netflix's release of 'Glass Onion: A Knives Out Mystery', we created 12 Puzzle Boxes inspired by the film. These varied in complexity and were sent to influencers, press, fans, and the director across the US and Europe. The live-streamed puzzle-solving sessions attracted over 30 million viewers, adding an interactive element to the film's launch.",
+        "role":"Alongside leading the makers team, I developed firmware code and implemented mobile integration for remote control of the puzzle boxes.",
+        "slug":"netflix-glass-onion",
+        "cover":"cover.png",
+        "video":[
+           "https://www.youtube.com/watch?v=5D0aRw2O_I8"
+        ],
+        "images":[
+           "35c3ef42-f1ac-4fb3-bb51-599d705485ca.jpg",
+           "335ba1bc-ec49-4efd-ad10-81c2e3d67b96.jpg",
+           "4436f192-bb09-454e-838d-5c940c0adce3.jpg",
+           "cd9ba505-9ca6-450a-bf2b-e99d2bba3d7e.gif"
+        ],
+        "featured":true
+     },
+     {
+        "id":"id_2",
+        "title":"Terminator MModel 101",
+        "client":"MediaMonks",
+        "year":"2020",
+        "description":"As an internal challenge, our team in São Paulo developed the Terminator MModel 101, a robotic head modeled after the T-800. This fully functional prototype is designed with advanced face tracking technology, allowing it to replicate human movements across all axes, including mouth movements, through facial-motion capture software. Its iconic red-light eyes enhance its cyborg appearance.",
+        "role":"I led the makers team and was responsible for translating Unity code into the firmware, ensuring seamless integration and functionality.",
+        "slug":"terminator-mmodel-101",
+        "cover":"cover.png",
+        "video":[
+           "https://www.youtube.com/watch?v=n9KGUbV9SKg"
+        ],
+        "images":[
+           "3d653223-dca3-4704-9e4c-d050f52592d4.jpg",
+           "7da9989a-ec7e-40e5-bec0-aa8aceceb3ab.jpg",
+           "8d565348-1576-4408-a2ff-851bcae542dc.gif"
+        ],
+        "featured":true
+     },
+     {
+        "id":"id_3",
+        "title":"Zinger 1 Space Mission",
+        "client":"KFC",
+        "year":"2017",
+        "description":"To launch KFC's Zinger in the U.S., we collaborated with Wieden+Kennedy and WorldView, sending the sandwich into space. The Zinger 01, in a robotic satellite, ascended to the stratosphere, was live-streamed on kfcin.space and Facebook, featuring an interactive timeline and a WebGL rocket featuring a selfie stick, a flag-waving arm, and a recording of the colonel on a gold cassette tape, providing a unique blend of science, technology, and fast food promotion.",
+        "role":"I was responsible for technical leadership, coordinated with suppliers, and developed firmware.",
+        "slug":"kfc-zinger",
+        "cover":"cover.png",
+        "video":[
+           "https://www.youtube.com/watch?v=fTY6u5O2wls",
+           "https://www.youtube.com/watch?v=beY247nbwNc"
+        ],
+        "images":[
+           "927faf30-d75b-4332-ab8e-ffe2515fb37c.jpg",
+           "cf29bd16-6c52-4445-92de-d8b48ad71cf7.gif",
+           "f171b427-4be2-4d7f-9cf5-7d1d46473f21.jpeg",
+           "ff93c03f-c017-4fe2-aff6-8a9a84eb8d71.gif"
+        ],
+        "featured":true
+     },
+     {
+        "id":"id_4",
+        "title":"S.Q.U.I.D.",
+        "client":"Old Spice",
+        "year":"2017",
+        "description":"The Old Spice SQUID project featured a robotic kraken controlled by online users on Twitch. We built a robotic kraken, an animatronic monster enabled eight random online users to control it. Over three days, participants navigated it through 12 live-streamed quests with real-world challenges.",
+        "role":"I led the maker team and programmed the motor movements of the robotic kraken, contributing to the interactive Twitch experience.",
+        "slug":"old-spice-squid",
+        "cover":"cover.png",
+        "video":[
+           "https://www.youtube.com/watch?v=HkReyJF_29E",
+           "https://www.youtube.com/watch?v=MUqvyWu7NR0"
+        ],
+        "images":[
+           "5487149a-e4d1-4cfa-8014-679ac1187678.png",
+           "825e44b9-608b-4d75-a425-b14887a45233.png",
+           "aa0991ae-78fb-4165-a371-63649e646061.gif"
+        ],
+        "featured":true
+     },
+     {
+        "id":"id_22",
+        "title":"Galaxy Surfboard",
+        "client":"Samsung",
+        "year":"2016",
+        "description":"With Leo Burnett, Gabriel Medina, and Johnny Cabianca, we developed the Samsung Galaxy Surfboard. It connects surfers on waves, integrating a Samsung S7 for real-time data on a waterproof LED display, showing weather, waves, and fan tweets, merging surfing with advanced tech.",
+        "role":"",
+        "slug":"samsung-galaxy-surfboard",
+        "cover":"cover.png",
+        "video":[
+           "https://youtu.be/vOD48POMjNg"
+        ],
+        "images":[
+           "55911f1f-6e48-4271-bd83-03dc4f55a205.jpeg",
+           "6e83e771-15c1-4339-aefd-28deef09ca48.png",
+           "d34da726-0a35-412b-b437-b3986f02b001.png",
+           "f7ea5f4f-3b51-4f48-aa39-12cea13a86d3.jpeg"
+        ],
+        "featured":true
+     },
+     {
+        "id":"id_5",
+        "title":"Christ’s View",
+        "client":"Pirelli",
+        "year":"2014",
+        "description":"In Pirelli's restoration of Christ the Redeemer, with Leo Burnett, we installed high-res cameras for a 360-degree panorama of Rio, accessible via a mobile app. Visitors could take and share photos with the cityscape background, simulating the statue's viewpoint.",
+        "role":"",
+        "slug":"pirelli-christs-view",
+        "cover":"cover.jpeg",
+        "video":[
+           "https://youtu.be/bgaYUrOmCXk"
+        ],
+        "images":[
+           "0af32c54-82e4-4a11-a4b5-80d61724ea2c.jpeg",
+           "225fbb9e-aa5b-48f5-aea8-eb81ed9a16c0.jpeg",
+           "cb22b89f-230c-409b-b247-8cf22a226556.jpeg"
+        ],
+        "featured":true
+     },
+     {
+        "id":"id_6",
+        "title":"Cooltopia NFT NYC",
+        "client":"Cool Cats",
+        "year":"2022",
+        "description":"At NFT.NYC 2022, we partnered with Cool Cats to transform Cooltopia into a physical experience in NYC. The setup included a plaza, garden, café, and themed zones - Air, Fire, Grass, Water - with interactive elements like a pirate ship and videogame challenges.",
+        "role":"I was the Tech Lead and developed the firmware for devices interacting with NFC bracelets to trigger animatronics.",
+        "slug":"cooltopia-nft",
+        "cover":"cover.png",
+        "video":[
+           "https://www.youtube.com/watch?v=mODOrCOF2Pc"
+        ],
+        "images":[
+           "4f1ff2aa-b4e4-43bb-8fdb-49cf49a295a0.jpg",
+           "6229c29f-b0fc-4cdf-9b5e-6f4a0d648a15.jpg",
+           "a7845ca1-e385-4ecb-9448-93f37aff0af2.gif"
+        ],
+        "featured":true
+     },
+     {
+        "id":"id_7",
+        "title":"Amarok Arcade",
+        "client":"Volkswagen",
+        "year":"2017",
+        "description":"To promote Volkswagen's new Amarok V6 truck, we engineered a web-controlled claw machine. This custom-built, meter-wide mechanical claw was showcased in an industrial shed beside the Amarok V6. Through a special campaign website, presale purchasers of the truck could remotely operate the claw to pick up stone blocks around the vehicle, each symbolizing additional features they could win for their new Amarok.",
+        "role":"I was responsible for technical leadership",
+        "slug":"volkswagen-amarok-arcade",
+        "cover":"cover.jpeg",
+        "video":[
+           "https://www.youtube.com/watch?v=2RiJ0MauL2Q"
+        ],
+        "images":[
+           "7db2b18d-a048-475c-a4ca-763e3295575a.jpeg",
+           "4721e21b-f1d1-4a9e-a6ca-ad1aa7873d1d.jpeg",
+           "9915b38c-2f0a-43c1-b7ee-0e82e4c65145.png"
+        ],
+        "featured":true
+     },
+     {
+        "id":"id_8",
+        "title":"Fashion Like",
+        "client":"C&A",
+        "year":"2012",
+        "description":"In a venture with DM9DBB for C&A, we merged in-store shopping with social media, letting customers 'Like' items online, displayed on in-store hangers. This offered a mix of social validation and digital engagement, giving shoppers a community-backed view of fashion popularity.",
+        "role":"",
+        "slug":"cea-fashion-like",
+        "cover":"cover.jpeg",
+        "video":[
+           "https://youtu.be/kPKKg4SIWDU"
+        ],
+        "images":[
+           "ebf01168-84d7-42b5-957d-2d349443118f.jpg",
+           "8c48b37c-09ec-4ea1-b8a8-7bf910c82862.jpeg",
+           "c26bf76e-22dd-41c4-ab0d-d835db0dc46e.jpeg"
+        ],
+        "featured":true
+     },
+     {
+        "id":"id_9",
+        "title":"Impossible Mascots",
+        "client":"Mastercard",
+        "year":"2019",
+        "description":"Partnering with WMcCann for Mastercard, we created telepresence robots for young cancer patients, enabling them to virtually join football idols on the pitch with displays, cameras, and custom streaming for an uninterrupted and memorable experience.",
+        "role":"I was responsible for technical leadership",
+        "slug":"mastercard-impossible-mascots",
+        "cover":"cover.jpeg",
+        "video":[
+           "https://www.youtube.com/watch?v=XbQ2W7B619g"
+        ],
+        "images":[
+           "157c2e41-fb1c-4a68-b2d8-782ec3811261.jpeg",
+           "48196c08-25b1-4702-922c-ad28a0f6ea48.png",
+           "9409ca35-0859-41ba-a2c4-357becc16c3e.gif",
+           "9765a05c-f7d2-4498-8a0d-7d1fc3dbf52f.png",
+           "e6a553f6-e6f6-4ed4-8650-6dc94408063b.gif"
+        ],
+        "featured":true
+     },
+     {
+        "id":"id_10",
+        "title":"Microphone of Truth",
+        "client":"National Geographic",
+        "year":"2018",
+        "description":"For National Geographic's Latin American show, we developed the 'Microphone of Truth' to combat fake news. This tech analyzes voice and heart rate for truthfulness, lighting up green, red, or yellow based on the response's veracity, offering an interactive approach to public discourse.",
+        "role":"",
+        "slug":"natgeo-microphone-truth",
+        "cover":"cover.jpg",
+        "video":[
+           "https://youtu.be/bstkEUL_jHo"
+        ],
+        "images":[
+           "7e31507b-dd6d-45db-a024-5bc949ead76f.gif",
+           "f8b2fbf6-c4a4-44d5-b574-2c83b3cd013a.gif"
+        ],
+        "featured":true
+     },
+     {
+        "id":"id_11",
+        "title":"The Jack Ryan Training Field",
+        "client":"Amazon Prime Video",
+        "year":"2017",
+        "description":"For Amazon Prime Video's 'The Jack Ryan' series, we created a 4D VR obstacle course at Comic-Con. Participants used Oculus Rifts for tasks like rappelling and zip-lining, with OptiTrack for outdoor movement.",
+        "role":"",
+        "slug":"amazon-jack-ryan-training-field",
+        "cover":"cover.png",
+        "video":[
+           "https://youtu.be/OFhZJqSLmEk"
+        ],
+        "images":[
+           
+        ],
+        "featured":true
+     },
+     {
+        "id":"id_12",
+        "title":"Eddie Highway Bobblehead",
+        "client":"Shell",
+        "year":"2017",
+        "description":"Shell commissioned us to create a device for Brazilian highways to detect and map potholes. The Bobble Head, a twist on truck mascots, uses an accelerometer and gyroscope to collect road data and identify potholes. It operates offline, made with 3D printing and durable PU paint.",
+        "role":"",
+        "slug":"shell-eddie-bobblehead",
+        "cover":"cover.jpeg",
+        "video":[
+           "https://youtu.be/DxfmKM2Hpfc"
+        ],
+        "images":[
+           "5605cc96-78fc-41cc-9221-91c8159129b0.jpeg",
+           "8e48b8b3-576a-4a86-842a-0708f0b6216a.jpeg",
+           "dd6a6100-8441-43f4-8009-73526f8a78a3.jpeg"
+        ],
+        "featured":true
+     },
+     {
+        "id":"id_13",
+        "title":"Water Ripples",
+        "client":"Stella Artois",
+        "year":"2018",
+        "description":"For World Water Day, we created a 36-foot kinetic art piece in Grand Central Station, featuring 558 motor-controlled water droplets. Visitors interacted with it, triggering optical fibers and waves of droplets, accompanied by a bespoke 8.1 soundtrack. We designed and executed everything from the virtual installation to the social media integration.",
+        "role":"",
+        "slug":"stella-artois-water-ripples",
+        "cover":"cover.png",
+        "video":[
+           "https://youtu.be/F5IJ8SCwoYI"
+        ],
+        "images":[
+           "44eb1a82-b5b6-4ddb-9482-4920ba23cf28.gif",
+           "e53e2f57-dff1-44ce-926e-84df422ed22c.jpeg",
+           "17a3dd83-6c09-4bb6-b946-3e67b8ca6193.gif",
+           "2207c4a2-5021-4c42-9481-56ccef3a3d39.jpeg"
+        ],
+        "featured":true
+     },
+     {
+        "id":"id_14",
+        "title":"Smart Beats",
+        "client":"Skol",
+        "year":"2017",
+        "description":"For Skol's innovative campaign, we created a limited-edition set of smart speakers, designed in the shape of Skol bottles. These devices, powered by voice recognition technology, function as personal party planners and entertainers. Users can command the speakers to send party invitations, switch music tracks and playlists, and even get genre-specific event recommendations. Additionally, they can book an Uber through the device, receive outfit suggestions based on weather forecasts, and even play interactive games like musical chairs.",
+        "role":"",
+        "slug":"skol-smart-beats",
+        "cover":"cover.jpeg",
+        "video":[
+           "https://youtu.be/uWPmbgAln80"
+        ],
+        "images":[
+           "1470fff4-91dc-4314-8df3-6215180fb69b.jpeg",
+           "e85634e8-0ef9-45c7-9fe0-af026c76000b.gif",
+           "8bd6c2e8-e715-4349-9cb0-898b8e7b1310.jpeg"
+        ],
+        "featured":true
+     },
+     {
+        "id":"id_15",
+        "title":"Mobile Recall",
+        "client":"Google",
+        "year":"2016",
+        "description":"Mobile Recall by Google was an event to show CEOs the effects of 2G on user experience. It featured four experiments: a bike showing website 'weight', VR Pac-Man for search difficulties, an obstacle course for usability, and a Rube Goldberg Machine to highlight performance issues",
+        "role":"",
+        "slug":"google-mobile-recall",
+        "cover":"cover.png",
+        "video":[
+           "https://youtu.be/ZRj9oICvoFQ"
+        ],
+        "images":[
+           "150e5168-0f06-4311-9c68-d8c0110e4d96.jpeg",
+           "4128cfb0-a895-4dd7-b1a7-7bcdd065f950.png",
+           "d7558810-1231-4604-912a-8eee9ed1a424.jpeg",
+           "ec51a783-44ec-43ec-ae7f-b61eecf4b0df.png"
+        ],
+        "featured":true
+     },
+     {
+        "id":"id_16",
+        "title":"AR Demonstration Briefcase",
+        "client":"GE",
+        "year":"2018",
+        "description":"For GE's product pitches, we developed a unique demo-in-a-briefcase, enabling representatives to dynamically showcase GE's solutions at events. This briefcase contains a detailed scale model embedded with electronics, representing the various industries impacted by GE. Accompanied by a tablet, visitors can interact with the model and explore GE's potential impact on their business through augmented reality (AR) animations.",
+        "role":"I was responsible for technical leadership, actively seeking innovative technical solutions.",
+        "slug":"ge-ar-demonstration",
+        "cover":"cover.png",
+        "video":[
+           "https://www.youtube.com/watch?v=06IPAwsoB3A"
+        ],
+        "images":[
+           "37e26f46-4129-4663-abe5-b7e1b22c82e9.jpeg",
+           "be81c520-ff6b-411a-be59-339cac2baa78.jpeg",
+           "b9a4cf4e-55d6-4cbf-a39e-72b5cde677cc.gif",
+           "f33ae832-d575-4345-ba28-6b1cf6921e1d.gif"
+        ],
+        "featured":true
+     },
+     {
+        "id":"id_17",
+        "title":"Mummy Floss Hero",
+        "client":"Colgate",
+        "year":"2017",
+        "description":"For Colgate, we created 'Mummy Floss Hero,' an interactive dental floss dispenser designed as a mummy. It links to devices via Bluetooth, lighting up when floss is pulled and granting access to a mobile game, which guides kids through a mouth environment to promote flossing.",
+        "role":"",
+        "slug":"colgate-mummy floss-hero",
+        "cover":"cover.png",
+        "video":[
+           "https://youtu.be/bFkx0JPhxUc"
+        ],
+        "images":[
+           "61c1a639-50e4-4341-80a1-9f3a615e6ccf.png",
+           "9528f60d-3272-41ae-8e4b-1e7e085b37e9.png",
+           "ebf01168-84d7-42b5-957d-2d349443118f.png",
+           "f2f88415-74cb-47bb-a89d-b76c635981bc.png"
+        ],
+        "featured":true
+     },
+     {
+        "id":"id_18",
+        "title":"Youtube Viewbusters",
+        "client":"Google",
+        "year":"2014",
+        "description":"In collaboration with RGA, we created the YouTube Viewbusters Award, an internet-connected device resembling the YouTube logo, awarded to agencies for top ads. It features a dynamic display showing ad view counts, made with 3D printing and custom software for the micro-controller.",
+        "role":"",
+        "slug":"youtube-viewbusters",
+        "cover":"cover.jpg",
+        "video":[
+           "https://youtu.be/EAaTCsG0BuY"
+        ],
+        "images":[
+           "52fb9318-9481-49c9-9c17-d542fffd9d1b.png",
+           "6cb239c6-594e-442d-a704-6b6f9c85535d.png",
+           "906a80f8-ac00-4fb9-8c59-1088a6277485.jpeg",
+           "ecd69da0-31b0-4373-a6a8-311c0243e6d3.jpeg"
+        ],
+        "featured":true
+     },
+     {
+        "id":"id_19",
+        "title":"Like Ad",
+        "client":"C&A",
+        "year":"2014",
+        "description":"In DM9's innovative campaign for C&A, we created a print ad allowing readers to 'Like' it directly. This blended physical and digital realms using a board with a cell phone chip for Facebook 'Likes', leading to its feature in Contigo magazine (brazilian magazine), pioneering interactive advertising.",
+        "role":"",
+        "slug":"cea-like-ad",
+        "cover":"cover.jpeg",
+        "video":[
+           "https://youtu.be/cZyC70PSKLw"
+        ],
+        "images":[
+           "518bdbf2-39a7-4e96-a4b1-7c036aea0179.jpeg",
+           "602b3c12-33ad-4232-bd10-e307fa4d8549.jpeg",
+           "6f19a534-0760-40de-bcdb-9cec425e7a7d.jpeg"
+        ],
+        "featured":true
+     },
+     {
+        "id":"id_20",
+        "title":"Ford Focus Fastback",
+        "client":"Ford",
+        "year":"2015",
+        "description":"Experience to showcase the new Ford Focus Fastback. Developed JavaScript and WebGL experience",
+        "role":"",
+        "slug":"ford-focus-fastback",
+        "cover":"cover.png",
+        "video":[
+           "https://youtu.be/ZXfmOOWiCaA",
+           "https://youtu.be/y04L_ozcF10",
+           "https://youtu.be/GNb68DKwywQ"
+        ],
+        "images":[
+           "6870a5b1-1955-4027-9de4-c9e80cd18fb8.png",
+           "73c0eb28-fffa-404b-9c06-f6cd6a1a9ef8.png"
+        ],
+        "featured":true
+     }
   ],
-  "stacks": [
-    {
-      "title": "Frontend",
-      "content": [
-        "TypeScript",
-        "React",
-        "React Native",
-        "JavaScript",
-        "Next.js",
-        "Vite",
-        "Vue",
-        "Tailwind",
-        "Styled-components",
-        "Design System",
-        "Storybook"
-      ]
-    },
-    {
-      "title": "Backend",
-      "content": [
-        "Node.js",
-        "Fastify",
-        "Nest.js",
-        "Python",
-        "Monorepo",
-        "Prisma",
-        "Knex",
-        "MySQL",
-        "PostgreSQL",
-        "NoSQL"
-      ]
-    },
-    {
-      "title": "DevOps",
-      "content": [
-        "AWS EC2",
-        "AWS S3",
-        "Docker",
-        "Docker Compose",
-        "Serverless"
-      ]
-    },
-    {
-      "title": "Creative Coding",
-      "content": [
-        "Arduino",
-        "ESP32",
-        "Raspberry Pi",
-        "Jetson Nano",
-        "3D Printing",
-        "Fusion 360",
-        "Processing",
-        "TouchDesigner",
-        "OpenCV",
-        "TensorFlow",
-        "MediaPipe"
-      ]
-    }
+  "stacks":[
+     {
+        "title":"Frontend",
+        "content":[
+           "TypeScript",
+           "React",
+           "React Native",
+           "JavaScript",
+           "Next.js",
+           "Vite",
+           "Vue",
+           "Tailwind",
+           "Styled-components",
+           "Design System",
+           "Storybook"
+        ]
+     },
+     {
+        "title":"Backend",
+        "content":[
+           "Node.js",
+           "Fastify",
+           "Nest.js",
+           "Python",
+           "Monorepo",
+           "Prisma",
+           "Knex",
+           "MySQL",
+           "PostgreSQL",
+           "NoSQL"
+        ]
+     },
+     {
+        "title":"DevOps",
+        "content":[
+           "AWS EC2",
+           "AWS S3",
+           "Docker",
+           "Docker Compose",
+           "Serverless"
+        ]
+     },
+     {
+        "title":"Creative Coding",
+        "content":[
+           "Arduino",
+           "ESP32",
+           "Raspberry Pi",
+           "Jetson Nano",
+           "3D Printing",
+           "Fusion 360",
+           "Processing",
+           "TouchDesigner",
+           "OpenCV",
+           "TensorFlow",
+           "MediaPipe"
+        ]
+     }
   ],
-  "awards": [
-    {
-      "title": "TheFWA",
-      "conquers": [
-        {
-          "position": "Site of the Month",
-          "quantity": 1
-        },
-        {
-          "position": "Mobile of the Day",
-          "quantity": 1
-        },
-        {
-          "position": "Site of the Day",
-          "quantity": 14
-        }
-      ]
-    },
-    {
-      "title": "Cannes Lions",
-      "conquers": [
-        {
-          "position": "Silver",
-          "quantity": 1
-        },
-        {
-          "position": "Bronze",
-          "quantity": 12
-        }
-      ]
-    },
-    {
-      "title": "New York Festivals",
-      "conquers": [
-        {
-          "position": "Bronze",
-          "quantity": 1
-        },
-        {
-          "position": "Shortlist",
-          "quantity": 9
-        }
-      ]
-    },
-    {
-      "title": "CLIO Awards",
-      "conquers": [
-        {
-          "position": "Silver",
-          "quantity": 4
-        },
-        {
-          "position": "Bronze",
-          "quantity": 2
-        }
-      ]
-    },
-    {
-      "title": "The One Show",
-      "conquers": [
-        {
-          "position": "Merit Award",
-          "quantity": 4
-        }
-      ]
-    },
-    {
-      "title": "LIA",
-      "conquers": [
-        {
-          "position": "Bronze",
-          "quantity": 2
-        },
-        {
-          "position": "Shortlist",
-          "quantity": 2
-        }
-      ]
-    },
-    {
-      "title": "Effie Awards",
-      "conquers": [
-        {
-          "position": "Gold",
-          "quantity": 1
-        },
-        {
-          "position": "Silver",
-          "quantity": 1
-        },
-        {
-          "position": "Bronze",
-          "quantity": 1
-        }
-      ]
-    },
-    {
-      "title": "Awwwards",
-      "conquers": [
-        {
-          "position": "Site Of The Day",
-          "quantity": 1
-        },
-        {
-          "position": "Honorable Mention",
-          "quantity": 1
-        }
-      ]
-    }
+  "awards":[
+     {
+        "title":"TheFWA",
+        "conquers":[
+           {
+              "position":"Site of the Month",
+              "quantity":1
+           },
+           {
+              "position":"Mobile of the Day",
+              "quantity":1
+           },
+           {
+              "position":"Site of the Day",
+              "quantity":14
+           }
+        ]
+     },
+     {
+        "title":"Cannes Lions",
+        "conquers":[
+           {
+              "position":"Silver",
+              "quantity":1
+           },
+           {
+              "position":"Bronze",
+              "quantity":12
+           }
+        ]
+     },
+     {
+        "title":"New York Festivals",
+        "conquers":[
+           {
+              "position":"Bronze",
+              "quantity":1
+           },
+           {
+              "position":"Shortlist",
+              "quantity":9
+           }
+        ]
+     },
+     {
+        "title":"CLIO Awards",
+        "conquers":[
+           {
+              "position":"Silver",
+              "quantity":4
+           },
+           {
+              "position":"Bronze",
+              "quantity":2
+           }
+        ]
+     },
+     {
+        "title":"The One Show",
+        "conquers":[
+           {
+              "position":"Merit Award",
+              "quantity":4
+           }
+        ]
+     },
+     {
+        "title":"LIA",
+        "conquers":[
+           {
+              "position":"Bronze",
+              "quantity":2
+           },
+           {
+              "position":"Shortlist",
+              "quantity":2
+           }
+        ]
+     },
+     {
+        "title":"Effie Awards",
+        "conquers":[
+           {
+              "position":"Gold",
+              "quantity":1
+           },
+           {
+              "position":"Silver",
+              "quantity":1
+           },
+           {
+              "position":"Bronze",
+              "quantity":1
+           }
+        ]
+     },
+     {
+        "title":"Awwwards",
+        "conquers":[
+           {
+              "position":"Site Of The Day",
+              "quantity":1
+           },
+           {
+              "position":"Honorable Mention",
+              "quantity":1
+           }
+        ]
+     }
   ]
 }
