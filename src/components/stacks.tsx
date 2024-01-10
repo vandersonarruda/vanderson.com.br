@@ -27,11 +27,9 @@ export default async function Stacks() {
 
             <div className="mt-5 flex flex-row flex-wrap gap-2 text-sm font-semibold md:mb-8 md:text-base lg:text-base">
               {item.content.map((content, index) => (
-                <>
-                  <p className="rounded-full bg-white px-4 py-1" key={index}>
-                    {content}
-                  </p>
-                </>
+                <p className="rounded-full bg-white px-4 py-1" key={index}>
+                  {content}
+                </p>
               ))}
             </div>
           </div>

@@ -20,35 +20,33 @@ export default async function Awards() {
         }, 0)
 
         return (
-          <>
-            <div
-              key={item.title}
-              className="group flex h-28 flex-col justify-center transition-all duration-200 md:h-20 md:flex-row md:justify-between lg:h-24 lg:hover:h-36 [&:not(:first-child)]:border-t-[1px] [&:not(:first-child)]:border-zinc-900/50"
-            >
-              <div className="flex w-full flex-row items-center md:h-full md:w-full">
-                <div className="w-10 md:w-12">
-                  <p className="text-lg font-semibold text-loblolly-500 lg:text-xl">
-                    {String(conquerQuantity).padStart(2, '0')}x
-                  </p>
-                </div>
-                {/* <p className="w-full bg-gradient-to-r from-[#007adf] to-[#00ecbc] bg-clip-text text-3xl font-bold text-transparent lg:text-4xl"> */}
-                <p className="w-fittext-3xl font-bold lg:text-4xl ">
-                  {item.title}
+          <div
+            key={item.title}
+            className="group flex h-28 flex-col justify-center transition-all duration-200 md:h-20 md:flex-row md:justify-between lg:h-24 lg:hover:h-36 [&:not(:first-child)]:border-t-[1px] [&:not(:first-child)]:border-zinc-900/50"
+          >
+            <div className="flex w-full flex-row items-center md:h-full md:w-full">
+              <div className="w-10 md:w-12">
+                <p className="text-lg font-semibold text-loblolly-500 lg:text-xl">
+                  {String(conquerQuantity).padStart(2, '0')}x
                 </p>
               </div>
-
-              <div className="flex w-full flex-row items-center pl-11 md:h-full md:justify-end md:pl-0">
-                {item.conquers.map((conquer, index) => (
-                  <div key={index} className="flex flex-row items-center">
-                    {index !== 0 && <span className="px-1">/</span>}
-                    <span className="text-sm font-medium leading-none md:text-base lg:text-lg">
-                      {conquer.quantity}x {conquer.position}
-                    </span>
-                  </div>
-                ))}
-              </div>
+              {/* <p className="w-full bg-gradient-to-r from-[#007adf] to-[#00ecbc] bg-clip-text text-3xl font-bold text-transparent lg:text-4xl"> */}
+              <p className="w-fittext-3xl font-bold lg:text-4xl ">
+                {item.title}
+              </p>
             </div>
-          </>
+
+            <div className="flex w-full flex-row items-center pl-11 md:h-full md:justify-end md:pl-0">
+              {item.conquers.map((conquer, index) => (
+                <div key={index} className="flex flex-row items-center">
+                  {index !== 0 && <span className="px-1">/</span>}
+                  <span className="text-sm font-medium leading-none md:text-base lg:text-lg">
+                    {conquer.quantity}x {conquer.position}
+                  </span>
+                </div>
+              ))}
+            </div>
+          </div>
         )
       })}
     </div>
