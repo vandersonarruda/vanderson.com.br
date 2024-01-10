@@ -96,9 +96,9 @@ export default async function Home() {
           — top awards
         </h3>
 
-        {/* <Suspense fallback={<LoadingIcon />}>
+        <Suspense fallback={<LoadingIcon />}>
           <Awards />
-        </Suspense> */}
+        </Suspense>
       </section>
     </div>
   )
