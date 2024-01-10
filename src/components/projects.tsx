@@ -3,7 +3,7 @@ import { Project } from '@/data/types/project'
 import { ProjectItem } from './project-item'
 
 async function getFeaturedProjects(): Promise<Project[]> {
-  const response = await api('/projects', {
+  const response = await api('/projects/featured', {
     next: {
       revalidate: 60 * 60, // 1 hour
     },
