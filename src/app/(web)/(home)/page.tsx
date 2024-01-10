@@ -27,7 +27,7 @@ export default async function Home() {
 
           <h2 className="text-xl font-medium leading-snug tracking-tight md:text-4xl md:leading-snug lg:text-5xl lg:leading-snug">
             <p>
-              — a software engineer skilled on web/mobile & IoT, working
+              — a software engineer skilled in Web, Mobile & IoT, working
               remotely from São Paulo, Brazil.
             </p>
           </h2>
