@@ -23,6 +23,14 @@ async function getProject(slug: string): Promise<Project> {
   return project
 }
 
+export async function generateMetadata({ params }: ProjectProps) {
+  const project = await getProject(params.slug)
+
+  return {
+    title: project.title,
+  }
+}
+
 export default async function ProjectPage({ params }: ProjectProps) {
   const project = await getProject(params.slug)
 

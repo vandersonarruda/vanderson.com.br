@@ -1,3 +1,9 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+/* @layer components {
+  .bg-pattern {
+    @apply px-4 py-2 rounded-md bg-blue-500 text-white;
+  }
+} */

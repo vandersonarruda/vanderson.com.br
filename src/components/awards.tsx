@@ -13,7 +13,7 @@ export default async function Awards() {
   const awards = await getAwards()
 
   return (
-    <div className="mx-auto flex h-full w-full flex-col rounded-3xl border-b-[1px] bg-loblolly-200/50 px-5">
+    <div className="mx-auto flex h-full w-full flex-col rounded-3xl bg-white/80 px-6">
       {awards.map((item) => {
         const conquerQuantity = item.conquers.reduce((acc, conquer) => {
           return acc + conquer.quantity
@@ -32,7 +32,7 @@ export default async function Awards() {
                   </p>
                 </div>
                 {/* <p className="w-full bg-gradient-to-r from-[#007adf] to-[#00ecbc] bg-clip-text text-3xl font-bold text-transparent lg:text-4xl"> */}
-                <p className="w-full text-3xl font-bold lg:text-4xl ">
+                <p className="w-fittext-3xl font-bold lg:text-4xl ">
                   {item.title}
                 </p>
               </div>
