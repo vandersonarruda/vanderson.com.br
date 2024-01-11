@@ -15,18 +15,18 @@ export const metadata: Metadata = {
     default: 'Vanderson Arruda — Software Engineer',
   },
   description:
-    'Experienced Software Engineer in Web, Mobile & IoT from São Paulo, Brazil. I have developed innovative projects for giants like Netflix, Google, and Microsoft. I am passionate about crafting cutting-edge tech solutions.',
+    'Experienced Software Engineer skilled in React, TypeScript, React Native, and Node.js. Passionate about crafting innovative tech solutions from São Paulo, Brazil.',
   openGraph: {
-    title: 'Vanderson Arruda — Software Engineer',
+    title: 'Vanderson Arruda - Software Engineer',
     description:
-      'Experienced Software Engineer in Web, Mobile & IoT from São Paulo, Brazil. I have developed innovative projects for giants like Netflix, Google, and Microsoft. I am passionate about crafting cutting-edge tech solutions.',
+      'Experienced Software Engineer skilled in React, TypeScript, React Native, and Node.js.',
     url: 'https://vanderson.com.br/',
     siteName: 'Vanderson Arruda',
     type: 'website',
     images: [
       {
-        url: 'https://vanderson.com.br/opengraph-image.png',
-        secureUrl: 'https://vanderson.com.br/opengraph-image.png',
+        url: 'https://vanderson.com.br/share-home.png',
+        secureUrl: 'https://vanderson.com.br/share-home.png',
         width: 1200,
         height: 630,
         alt: 'Preview image for Vanderson Arruda',
