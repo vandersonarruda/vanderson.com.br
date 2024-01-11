@@ -20,6 +20,18 @@ export const metadata: Metadata = {
     title: 'Vanderson Arruda — Software Engineer',
     description:
       'Experienced Software Engineer in Web, Mobile & IoT from São Paulo, Brazil. I have developed innovative projects for giants like Netflix, Google, and Microsoft. I am passionate about crafting cutting-edge tech solutions.',
+    url: 'https://vanderson.com.br/',
+    siteName: 'Vanderson Arruda',
+    type: 'website',
+    images: [
+      {
+        url: 'https://vanderson.com.br/opengraph-image.png',
+        secureUrl: 'https://vanderson.com.br/opengraph-image.png',
+        width: 1200,
+        height: 630,
+        alt: 'Preview image for Vanderson Arruda',
+      },
+    ],
   },
 }
 
