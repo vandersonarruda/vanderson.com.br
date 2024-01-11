@@ -15,7 +15,12 @@ export const metadata: Metadata = {
     default: 'Vanderson Arruda — Software Engineer',
   },
   description:
-    'Experienced Software Engineer in Web, Mobile & IoT from São Paulo, Brazil. Leading innovative projects for giants like Netflix, Google, Microsoft. Passionate about crafting cutting-edge tech solutions.',
+    'Experienced Software Engineer in Web, Mobile & IoT from São Paulo, Brazil. I have developed innovative projects for giants like Netflix, Google, and Microsoft. I am passionate about crafting cutting-edge tech solutions.',
+  openGraph: {
+    title: 'Vanderson Arruda — Software Engineer',
+    description:
+      'Experienced Software Engineer in Web, Mobile & IoT from São Paulo, Brazil. I have developed innovative projects for giants like Netflix, Google, and Microsoft. I am passionate about crafting cutting-edge tech solutions.',
+  },
 }
 
 export default function RootLayout({
