@@ -25,8 +25,9 @@ export const metadata: Metadata = {
     type: 'website',
     images: [
       {
-        url: 'https://vanderson.com.br/share-home.png',
-        secureUrl: 'https://vanderson.com.br/share-home.png',
+        url: 'https://s3.us-east-2.amazonaws.com/vanderson.com.br/share-cover.png',
+        secureUrl:
+          'https://s3.us-east-2.amazonaws.com/vanderson.com.br/share-cover.png',
         width: 1200,
         height: 630,
         alt: 'Preview image for Vanderson Arruda',
