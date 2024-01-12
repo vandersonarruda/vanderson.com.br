@@ -17,9 +17,9 @@ export const metadata: Metadata = {
   description:
     'Experienced Software Engineer skilled in React, TypeScript, React Native, and Node.js. Passionate about crafting innovative tech solutions from São Paulo, Brazil.',
   openGraph: {
-    images:
-      'https://s3.us-east-2.amazonaws.com/vanderson.com.br/share-cover.png',
+    images: ['/share-cover.png'],
   },
+  metadataBase: new URL('https://vanderson.com.br'),
 }
 
 export default function RootLayout({
