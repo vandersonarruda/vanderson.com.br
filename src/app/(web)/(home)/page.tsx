@@ -11,8 +11,6 @@ import { Suspense } from 'react'
 // - Review and revise text in the header and meta tags
 // - Create a 404 error page
 // - Add icons and links for mouse-over effects
-// - remove blank space on footer
-// - remove blank target from links
 // - try new title color
 // - double check on projects descriptions
 

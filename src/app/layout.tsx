@@ -29,7 +29,7 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en" className={inter.variable}>
-      <body className="bg-white text-zinc-950 antialiased">
+      <body className="m-5 bg-white text-zinc-950 antialiased">
         <SmoothScrolling>{children}</SmoothScrolling>
         <Analytics />
       </body>

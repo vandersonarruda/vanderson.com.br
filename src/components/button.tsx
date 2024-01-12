@@ -22,7 +22,7 @@ export function Button({ title, link, iconName, size }: ButtonProps) {
 
   function handleClick() {
     if (link.startsWith('http') || link.startsWith('https')) {
-      window.open(link, '_blank')
+      window.open(link)
     } else if (link.startsWith('mailto')) {
       window.location.href = link
     } else {
