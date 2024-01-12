@@ -17,22 +17,8 @@ export const metadata: Metadata = {
   description:
     'Experienced Software Engineer skilled in React, TypeScript, React Native, and Node.js. Passionate about crafting innovative tech solutions from São Paulo, Brazil.',
   openGraph: {
-    title: 'Vanderson Arruda - Software Engineer',
-    description:
-      'Experienced Software Engineer skilled in React, TypeScript, React Native, and Node.js.',
-    url: 'https://vanderson.com.br/',
-    siteName: 'Vanderson Arruda',
-    type: 'website',
-    images: [
-      {
-        url: 'https://s3.us-east-2.amazonaws.com/vanderson.com.br/share-cover.png',
-        secureUrl:
-          'https://s3.us-east-2.amazonaws.com/vanderson.com.br/share-cover.png',
-        width: 1200,
-        height: 630,
-        alt: 'Preview image for Vanderson Arruda',
-      },
-    ],
+    images:
+      'https://s3.us-east-2.amazonaws.com/vanderson.com.br/share-cover.png',
   },
 }
 
