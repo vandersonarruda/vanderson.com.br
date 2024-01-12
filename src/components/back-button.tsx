@@ -16,10 +16,10 @@ export function BackButton() {
       {pathname !== '/' ? (
         <button
           onClick={handleClick}
-          className="group flex w-fit items-center justify-center gap-2 rounded-lg px-4 py-2 text-xl font-semibold text-black "
+          className="group flex w-fit items-center justify-center gap-2 rounded-full px-4 py-2 text-xl font-semibold text-black"
         >
-          <ChevronLeft className="transition-all duration-200 ease-in-out group-hover:-ml-2 " />
-          <p className="transition-all duration-200 ease-in-out group-hover:ml-3 ">
+          <ChevronLeft className="transition-all duration-200 ease-in-out group-hover:-ml-2" />
+          <p className="transition-all duration-200 ease-in-out group-hover:ml-3">
             Back
           </p>
         </button>

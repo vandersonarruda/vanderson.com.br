@@ -14,7 +14,6 @@ import { Suspense } from 'react'
 // - remove blank space on footer
 // - remove blank target from links
 // - try new title color
-// - fixed back button
 // - double check on projects descriptions
 
 export default async function Home() {
