@@ -11,8 +11,8 @@ const inter = Inter({
 
 export const metadata: Metadata = {
   title: {
-    template: '%s | Vanderson Arruda — Software Engineer',
-    default: 'Vanderson Arruda — Software Engineer',
+    template: '%s | Vanderson P. Arruda — Software Engineer',
+    default: 'Vanderson P. Arruda — Software Engineer',
   },
   description:
     'Experienced Software Engineer skilled in React, TypeScript, React Native, and Node.js. Passionate about crafting innovative tech solutions from São Paulo, Brazil.',
