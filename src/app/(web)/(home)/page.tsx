@@ -41,12 +41,29 @@ export default async function Home() {
       <section className="flex flex-col items-center">
         <div className="flex w-5/6 flex-col gap-5 text-base font-normal leading-relaxed md:w-3/4 md:text-xl md:leading-relaxed lg:text-2xl lg:leading-relaxed">
           <p>
-            Two decades of coding and still counting, I&apos;ve been programming
-            and leading a skilled team of developers, electronic engineers,
-            industrial designers, and makers — crafting cool projects for
-            industry leaders like Netflix, Google, and Microsoft, while working
-            at top agencies such as JWT and Media.Monks.
+            Over the past 22 years, I&apos;ve been programming and leading a
+            skilled team of developers, electronic engineers, industrial
+            designers, and makers — crafting cool projects for industry leaders
+            like Netflix, Google, and Microsoft, while working at top agencies
+            such as{' '}
+            <a
+              href="https://www.jwt.com/"
+              target="_blank"
+              className="underline"
+            >
+              JWT
+            </a>{' '}
+            and{' '}
+            <a
+              href="https://media.monks.com/"
+              target="_blank"
+              className="underline"
+            >
+              Media.Monks
+            </a>
+            .
           </p>
+
           <p>
             When I say cool projects, I mean everything from crazy gadgets and
             web applications to live-streaming props and immersive event
