@@ -28,7 +28,7 @@ export default async function Home() {
 
           <h2 className="text-xl font-medium leading-snug tracking-tight md:text-4xl md:leading-snug lg:text-5xl lg:leading-snug">
             <p>
-              — a software engineer skilled in Web, Mobile & IoT, working
+              — a software engineer skilled in web, mobile & IoT, working
               remotely from São Paulo, Brazil.
             </p>
           </h2>
@@ -41,11 +41,10 @@ export default async function Home() {
       <section className="flex flex-col items-center">
         <div className="flex w-5/6 flex-col gap-5 text-base font-normal leading-relaxed md:w-3/4 md:text-xl md:leading-relaxed lg:text-2xl lg:leading-relaxed">
           <p>
-            Over the past 22 years, I&apos;ve been programming and leading a
-            skilled team of developers, electronic engineers, industrial
-            designers, and makers — crafting cool projects for industry leaders
-            like Netflix, Google, and Microsoft, while working at top agencies
-            such as{' '}
+            With over 18 years of experience, I&apos;ve grown into a web
+            application developer, creating innovative solutions and impactful
+            projects for industry giants like Netflix, Google, and Microsoft. My
+            work with leading agencies such as{' '}
             <a
               href="https://www.jwt.com/"
               target="_blank"
@@ -60,18 +59,31 @@ export default async function Home() {
               className="underline"
             >
               Media.Monks
-            </a>
-            .
+            </a>{' '}
+            have diversified my portfolio, illustrating my ability to thrive in
+            complex, creative environments.
           </p>
 
           <p>
-            When I say cool projects, I mean everything from crazy gadgets and
-            web applications to live-streaming props and immersive event
-            experiences.
+            I&apos;ve deep technical expertise in JavaScript, TypeScript,
+            React.js, and Node.js, which allows me to develop scalable and
+            efficient web applications that exceed modern expectations.
           </p>
+
           <p>
-            I continuously explore new tech to ensure that my skills remain
-            fresh and cutting-edge. 🌱
+            My enthusiasm for innovation extends beyond conventional web
+            development into the realm of IoT. I have spearheaded projects that
+            joined Arduino and Raspberry Pi with web applications, creating
+            immersive and interactive experiences for large-scale events and
+            digital campaigns. These initiatives have not only significantly
+            boosted user engagement but have also earned my team and me over 100
+            awards.
+          </p>
+
+          <p>
+            I invite you to explore my portfolio to learn more about the
+            projects that have shaped it, and the unique value I can bring to
+            your next digital challenge. 🌱
           </p>
           <div className="mt-1 flex flex-row gap-3 md:mt-3 md:gap-4">
             <Button

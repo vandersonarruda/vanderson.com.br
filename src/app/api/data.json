@@ -6,7 +6,7 @@
         "client":"Netflix",
         "year":"2022",
         "description":"For Netflix's release of 'Glass Onion: A Knives Out Mystery', we created 12 Puzzle Boxes inspired by the film. These varied in complexity and were sent to influencers, press, fans, and the director across the US and Europe. The live-streamed puzzle-solving sessions attracted over 30 million viewers, adding an interactive element to the film's launch.",
-        "role":"Alongside leading the makers team, I developed firmware code and implemented mobile integration for remote control of the puzzle boxes.",
+        "role":"",
         "slug":"netflix-glass-onion",
         "cover":"cover.png",
         "video":[
@@ -26,7 +26,7 @@
         "client":"MediaMonks",
         "year":"2020",
         "description":"As an internal challenge, our team in São Paulo developed the Terminator MModel 101, a robotic head modeled after the T-800. This fully functional prototype is designed with advanced face tracking technology, allowing it to replicate human movements across all axes, including mouth movements, through facial-motion capture software. Its iconic red-light eyes enhance its cyborg appearance.",
-        "role":"I led the makers team and was responsible for translating Unity code into the firmware, ensuring seamless integration and functionality.",
+        "role":"",
         "slug":"terminator-mmodel-101",
         "cover":"cover.png",
         "video":[
@@ -45,7 +45,7 @@
         "client":"KFC",
         "year":"2017",
         "description":"To launch KFC's Zinger in the U.S., we collaborated with Wieden+Kennedy and WorldView, sending the sandwich into space. The Zinger 01, in a robotic satellite, ascended to the stratosphere, was live-streamed on kfcin.space and Facebook, featuring an interactive timeline and a WebGL rocket featuring a selfie stick, a flag-waving arm, and a recording of the colonel on a gold cassette tape, providing a unique blend of science, technology, and fast food promotion.",
-        "role":"I was responsible for technical leadership, coordinated with suppliers, and developed firmware.",
+        "role":"",
         "slug":"kfc-zinger",
         "cover":"cover.png",
         "video":[
@@ -66,7 +66,7 @@
         "client":"Old Spice",
         "year":"2017",
         "description":"The Old Spice SQUID project featured a robotic kraken controlled by online users on Twitch. We built a robotic kraken, an animatronic monster enabled eight random online users to control it. Over three days, participants navigated it through 12 live-streamed quests with real-world challenges.",
-        "role":"I led the maker team and programmed the motor movements of the robotic kraken, contributing to the interactive Twitch experience.",
+        "role":"",
         "slug":"old-spice-squid",
         "cover":"cover.png",
         "video":[
@@ -125,7 +125,7 @@
         "client":"Cool Cats",
         "year":"2022",
         "description":"At NFT.NYC 2022, we partnered with Cool Cats to transform Cooltopia into a physical experience in NYC. The setup included a plaza, garden, café, and themed zones - Air, Fire, Grass, Water - with interactive elements like a pirate ship and videogame challenges.",
-        "role":"I was the Tech Lead and developed the firmware for devices interacting with NFC bracelets to trigger animatronics.",
+        "role":"",
         "slug":"cooltopia-nft",
         "cover":"cover.png",
         "video":[
@@ -144,7 +144,7 @@
         "client":"Volkswagen",
         "year":"2017",
         "description":"To promote Volkswagen's new Amarok V6 truck, we engineered a web-controlled claw machine. This custom-built, meter-wide mechanical claw was showcased in an industrial shed beside the Amarok V6. Through a special campaign website, presale purchasers of the truck could remotely operate the claw to pick up stone blocks around the vehicle, each symbolizing additional features they could win for their new Amarok.",
-        "role":"I was responsible for technical leadership",
+        "role":"",
         "slug":"volkswagen-amarok-arcade",
         "cover":"cover.jpeg",
         "video":[
@@ -182,7 +182,7 @@
         "client":"Mastercard",
         "year":"2019",
         "description":"Partnering with WMcCann for Mastercard, we created telepresence robots for young cancer patients, enabling them to virtually join football idols on the pitch with displays, cameras, and custom streaming for an uninterrupted and memorable experience.",
-        "role":"I was responsible for technical leadership",
+        "role":"",
         "slug":"mastercard-impossible-mascots",
         "cover":"cover.jpeg",
         "video":[
@@ -316,7 +316,7 @@
         "client":"GE",
         "year":"2018",
         "description":"For GE's product pitches, we developed a unique demo-in-a-briefcase, enabling representatives to dynamically showcase GE's solutions at events. This briefcase contains a detailed scale model embedded with electronics, representing the various industries impacted by GE. Accompanied by a tablet, visitors can interact with the model and explore GE's potential impact on their business through augmented reality (AR) animations.",
-        "role":"I was responsible for technical leadership, actively seeking innovative technical solutions.",
+        "role":"",
         "slug":"ge-ar-demonstration",
         "cover":"cover.png",
         "video":[
